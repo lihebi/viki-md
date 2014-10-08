@@ -1,24 +1,28 @@
+# VIM
 
-## 未分类
+# Content Operation
 
-录制功能
+## Multi line comment
 
-正常模式下,按`qq...q`进行录制.意思是将`...`录制到`q`里.
+Nerd comment
 
-使用方法:
-`@q` `5@q`
+* `<leader>cc` add comment
+* `<leader>c<space>` toggle comment
+* `<leader>cu` uncomment
 
-单词统计
+Another method
 
-g Ctrl-g
+`ctrl-v` to enter `visual block` mode.
+Select lines, then `I`, then insert, then `Esc`.
 
-拼写模式下,按`z=`显示提示
+## Search inline
 
-选中模式下,按`=`缩进文本
+* `fx`: search `x` in current line
+* `Fx`: search `x` in reverse direction
+* `tx`: `fx`会把光标停留在`x`上，`tx`会停留在`x`前面一个字符上。
+* `Tx`: 停留在`x`后面一个字符上。
 
-
-
-## 跳转
+# Movement
 
 * `Ctrl-]` 进入函数
 * `Ctrl-t` 返回
@@ -39,6 +43,27 @@ g Ctrl-g
 
 * `%` 跳至匹配的括号
 * `gd` 跳至局部变量或函数名
+
+* `<C-e>`: move screen down
+* `<C-y>`: move screen up
+
+
+## 未分类
+
+录制功能
+
+正常模式下,按`qq...q`进行录制.意思是将`...`录制到`q`里.
+
+使用方法:
+`@q` `5@q`
+
+单词统计
+
+g Ctrl-g
+
+拼写模式下,按`z=`显示提示
+
+选中模式下,按`=`缩进文本
 
 ### mark
 
