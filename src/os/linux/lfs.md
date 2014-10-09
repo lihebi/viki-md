@@ -95,7 +95,8 @@ make -j2
 
 ## Binutils
 
-```
+```sh
 cd $LFS/sources
 tar xvf binutils-2.24.tar.gz # what about patch?
 mkdir -v ../binutils-build
+```
