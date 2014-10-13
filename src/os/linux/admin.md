@@ -4,13 +4,13 @@
 
 ## `adduser` versus `useradd`
 
-`adduser` is low-level command. `useradd` is friendly.
+`useradd` is low-level command. `adduser` is friendly, often used in Debian.
 In many system, `adduser` is the same as `useradd`.
 They refer to the same man page.
 
 ### useradd
 
-```
+```sh
 useradd -D # list default setting
 useradd hebi # add the user
 useradd hebi -m -groups sudo # -m: create home

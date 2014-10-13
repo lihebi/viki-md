@@ -22,6 +22,20 @@ list all partition together with their labels
 ls -l /dev/disk/by-label/
 ```
 
+# Mount & Umount
+
+When mount many partition for installation, umount all of them by:
+
+```
+umount -R /mnt
+```
+
+Umount a busy partition:
+
+```
+umount -l /dev/sda1
+```
+
 # File descriptor
 
 * `/dev/stdxxx`

@@ -1,3 +1,22 @@
+# Operating System Installation
+
+# Software
+
+* unetbootin
+
+# Linux
+
+## 在mac中制作ubuntu启动盘
+
+```
+hdiutil convert -format UDRW -o ~/path/to/target.img ~/path/to/ubuntu.iso
+diskutil list, insert usb, diskutil list => /dev/disk1
+diskutil unmountDisk /dev/diskN
+sudo dd if=/path/to/downloaded.img of=/dev/rdiskN bs=1m
+diskutil eject /dev/diskN
+```
+
+# OSX
 
 ## OSX 10.10 yosemite
 
@@ -52,20 +71,10 @@ sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstal
 —nointeraction
 ```
 
-## Raspberry Pi SD card
+# Raspberry Pi SD card
 
 ```
 diskutil umountDisk /dev/disk1
 sudo dd bs=1m if=xxx.img of=/dev/rdisk1
 sudo diskutil eject /dev/rdisk1
-```
-
-## 在mac中制作ubuntu启动盘
-
-```
-hdiutil convert -format UDRW -o ~/path/to/target.img ~/path/to/ubuntu.iso
-diskutil list, insert usb, diskutil list => /dev/disk1
-diskutil unmountDisk /dev/diskN
-sudo dd if=/path/to/downloaded.img of=/dev/rdiskN bs=1m
-diskutil eject /dev/diskN
 ```
