@@ -34,4 +34,31 @@ genfstab -U -p /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
 vi /etc/locale.gen
 locale-gen
+echo LANG=your_locale > /etc/locale.conf
+echo computer_name > /etc/hostname
+mkinitcpio -p linux
+passwd
+
+# A hostname is a unique name created to identify a machine on a network
+# hostname myhostname # => set temporary until reboot
+ln -sf /usr/share/zoneinfo/zone/subzone /etc/localtime
+```
+
+# Grub
+
+```
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=arch_grub --recheck --debug
+```
+
+# Network
+
+```
+ip link
+systemctl enable dhcpcd@interface_name.service
+```
+
+Install `ifconfig`:
+
+```
+pacman -S net-tools
 ```
