@@ -8,7 +8,7 @@
 In many system, `adduser` is the same as `useradd`.
 They refer to the same man page.
 
-### useradd
+### useradd(important)
 
 ```sh
 useradd -D # list default setting
@@ -20,3 +20,7 @@ usermod -s /bin/bash hebi
 
 useradd -d /home/kevin -s /bin/bash -m kevin
 ```
+
+Groups:
+
+* `wheel`: Administration group, commonly used to give access to the sudo and su utilities
