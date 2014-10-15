@@ -62,3 +62,20 @@ Install `ifconfig`:
 ```
 pacman -S net-tools
 ```
+
+# Xorg
+
+```
+pacman -S xorg
+pacman -S xorg-xinit # provide startx
+pacman -S xf86-video-intel
+pacman -Ss twm, xclock, xterm
+startx
+pkill X
+```
+
+# Utils
+
+```
+pacman -S mlocate # updatedb and locate
+```
