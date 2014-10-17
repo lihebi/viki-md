@@ -79,3 +79,11 @@ pkill X
 ```
 pacman -S mlocate # updatedb and locate
 ```
+
+# After Installation
+
+Chinese Font
+
+```
+pacman -Ss wqy
+```
