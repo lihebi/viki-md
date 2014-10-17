@@ -87,3 +87,9 @@ Chinese Font
 ```
 pacman -Ss wqy
 ```
+
+Natual scrolling for xorg
+
+```
+xmodmap -e "pointer = 1 2 3 5 4"
+```
