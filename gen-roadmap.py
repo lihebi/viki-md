@@ -21,6 +21,6 @@ for root,dirs,files in os.walk('src'):
 
 print result
 print
-js = json.dumps(result)
+js = json.dumps(result, indent=2)
 with open('roadmap.json', 'w') as f:
   f.write(js)
