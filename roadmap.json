@@ -47,6 +47,7 @@
     "data-structure.md": false
   }, 
   "PhD": {
+    "A-buffer.md": false, 
     "rtree.md": false
   }, 
   "platform": {
