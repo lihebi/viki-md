@@ -46,6 +46,9 @@
     "applescript.md": false, 
     "data-structure.md": false
   }, 
+  "Z-buffer": {
+    "tmp.md": false
+  }, 
   "PhD": {
     "A-buffer.md": false, 
     "rtree.md": false
@@ -55,17 +58,6 @@
     "heroku.md": false, 
     "github-repos.md": false, 
     "github.md": false
-  }, 
-  "software": {
-    "gfw.md": false, 
-    "emacs.md": false, 
-    "atom.md": false, 
-    "jekyll.md": false, 
-    "openvpn.md": false, 
-    "redis.md": false, 
-    "vim.md": false, 
-    "pptp.md": false, 
-    "apache.md": false
   }, 
   "os": {
     "installation": {
@@ -92,7 +84,15 @@
       "awesome.md": false
     }
   }, 
-  "zbuffer": {
-    "tmp.md": false
+  "software": {
+    "gfw.md": false, 
+    "emacs.md": false, 
+    "atom.md": false, 
+    "jekyll.md": false, 
+    "openvpn.md": false, 
+    "redis.md": false, 
+    "vim.md": false, 
+    "pptp.md": false, 
+    "apache.md": false
   }
 }
