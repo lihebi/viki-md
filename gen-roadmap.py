@@ -1,6 +1,7 @@
 #!/usr/bin/env python2
 
 import os,json
+import collections
 
 result = {}
 
@@ -15,12 +16,14 @@ def add(root, f):
   tmp[f]=False
 
 for root,dirs,files in os.walk('src'):
+  dirs.sort()
+  files.sort()
   print root, dirs, files
   for f in files:
     add(root, f)
 
-print result
-print
-js = json.dumps(result, indent=2)
+od = collections.OrderedDict(sorted(result.items()))
+
+js = json.dumps(od,indent=2)
 with open('roadmap.json', 'w') as f:
   f.write(js)
