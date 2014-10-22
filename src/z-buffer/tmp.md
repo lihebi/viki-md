@@ -30,3 +30,9 @@ start a composite manager(xcompmgr for example). Just add this to `.xinitrc`
 ```
 xcompmgr -c &
 ```
+
+# vim
+
+```
+:setfiletype python
+```
