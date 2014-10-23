@@ -28,3 +28,4 @@
 * `julianlloyd/scrollreveal.js`: easily reveal elements as they enter the viewport
 * `t4t5/sweetalert`: sweet replacement for js alert
 * `tylerneylon/termtris`: text-based game inspired by tetris
+* `mrdoob/three.js`: js 3d lib
