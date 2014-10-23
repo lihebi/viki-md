@@ -51,3 +51,10 @@ It remembers the order in which the elements have been inserted.
 import collections
 od = collections.OrderedDict(sorted(d.items()))
 ```
+
+# ffmpeg
+m4a to mp3
+
+```
+ffmpeg -v 5 -y -i input.m4a -acodec libmp3lame -ac 2 -ab 192k output.mp3
+```
