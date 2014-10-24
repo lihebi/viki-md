@@ -55,3 +55,17 @@ Then reload module:
 ```
 modprobe -r iwlwifi ; modprobe iwlwifi
 ```
+
+## sudo
+
+```
+apt-get install sudo
+export EDITOR=vim
+visudo
+```
+
+Add to `/etc/sudoers` by `visudo`:
+
+```
+hebi ALL=(ALL:ALL) ALL
+```
