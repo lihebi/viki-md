@@ -84,3 +84,28 @@ Make it default, in `/etc/lightdm/lihgtdm.conf`:
 [SeatDefaults]
 user-session=awesome
 ```
+
+## Use Text Terminal!
+
+Default runlevel is 2, in `/etc/inittab`:
+
+```
+id:2:initdefault:
+```
+
+In `/etc/rc2.d`:
+
+```
+mv S18lightdm K18lightdm
+update-rc.d lightdm defaults
+```
+
+It will be renamed automatically to K01lightdm
+
+## xmodmap
+
+in `~/.xinitrc`:
+
+```
+xmodmap -e "pointer = 1 2 3 5 4" # natural scrolling
+```
