@@ -69,3 +69,18 @@ Add to `/etc/sudoers` by `visudo`:
 ```
 hebi ALL=(ALL:ALL) ALL
 ```
+
+## Awesome
+
+```
+apt-get install awesome
+```
+
+It will appear in lightdm's menu automatically(`/user/share/xessions/awesome.desktop`)
+
+Make it default, in `/etc/lightdm/lihgtdm.conf`:
+
+```
+[SeatDefaults]
+user-session=awesome
+```
