@@ -21,6 +21,7 @@
   "os": {
     "installation": {
       "liveusb.md": false, 
+      "debian.md": false, 
       "archlinux.md": false
     }, 
     "shell.md": false, 
