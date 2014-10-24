@@ -108,4 +108,8 @@ in `~/.xinitrc`:
 
 ```
 xmodmap -e "pointer = 1 2 3 5 4" # natural scrolling
+# CapsLock to Control
+xmodmap -e "keycode 66 = Control_L"
+xmodmap -e "clear Lock"
+xmodmap -e "add Control = Control_L"
 ```
