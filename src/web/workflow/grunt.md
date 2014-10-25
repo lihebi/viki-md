@@ -149,7 +149,7 @@ config
 ```
 'gh-pages': {
   options: {
-    base: 'sites'
+    base: 'dist'
   },
   src: ['**']
 },
