@@ -65,6 +65,12 @@ module.exports = function (grunt) {
 
 ## 常用的插件包
 
+load all plugin automatically:
+
+```
+require('load-grunt-tasks')(grunt);
+```
+
 ### grunt-contrib-concat
 ### grunt-contrib-connect
 
