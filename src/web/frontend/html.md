@@ -122,3 +122,9 @@
 ```
 
 header 和 footer 可以用在section的开始或结束
+
+
+# Code
+
+* `&#0153;`: &#0153; trademark
+* `&#0169;`: &#0169; copyright
