@@ -1,5 +1,11 @@
 # Buffer tmp for viki articles.
 
+# js
+
+```
+data.replace(/\\"/g, '"');
+```
+
 # glibc 2.14+(2.19) in debian
 
 add to sourcelist
