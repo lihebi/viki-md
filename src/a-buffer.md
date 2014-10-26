@@ -1,5 +1,19 @@
 # Buffer tmp for viki articles.
 
+# git
+
+add all deleted files for commitment:
+
+```
+git add -u
+```
+
+it will not add untracked files, so I still need:
+
+```
+git add .
+```
+
 # js
 
 ```
