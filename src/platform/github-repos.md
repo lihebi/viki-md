@@ -21,6 +21,7 @@
 * `google/material-design-icons`: Material Design icons
 * `visit1985/mdp`: command-line based markdown presentation
 * `alvarotrigo/pagepiling.js`: page piling
+* `alvarotrigo/fullPage.js`: full page
 * `google/physical-web`: google Physical-web: walk up and use anything
 * `kimmobrunfeldt/progressbar.js`: Beautiful and responsive progress bars
 * `facebook/react`: js lib for building user interfaces
