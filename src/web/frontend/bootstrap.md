@@ -2,7 +2,7 @@
 
 ## Basic Template
 
-```html
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
