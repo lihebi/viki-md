@@ -60,6 +60,7 @@
     "vim.md": false, 
     "jekyll.md": false, 
     "openvpn.md": false, 
+    "vimrc.md": false, 
     "pptp.md": false, 
     "atom.md": false, 
     "redis.md": false, 
@@ -76,12 +77,12 @@
       "backbone.md": false
     }, 
     "frontend": {
-      "bootstrap.md": false,
-      "css.md": false, 
       "dom.md": false, 
-      "sass.md": false, 
+      "html.md": false, 
       "ejs.md": false, 
-      "html.md": false
+      "css.md": false, 
+      "bootstrap.md": false, 
+      "sass.md": false
     }, 
     "workflow": {
       "bower.md": false, 
