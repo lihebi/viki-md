@@ -72,4 +72,6 @@ ffmpeg -v 5 -y -i input.m4a -acodec libmp3lame -ac 2 -ab 192k output.mp3
 rvm list known
 rvm install 2.1
 rvm use 2.1
+rvm --default use 2.1.1
 ```
+
