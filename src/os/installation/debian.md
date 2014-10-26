@@ -117,5 +117,5 @@ xmodmap -e "add Control = Control_L"
 ## default browser
 
 ```
-update-alternatives --config gnome-www-browser
+update-alternatives --config gnome-www-browser # maybe x-www-browser
 ```
