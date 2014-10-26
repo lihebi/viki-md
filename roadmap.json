@@ -76,6 +76,7 @@
       "backbone.md": false
     }, 
     "frontend": {
+      "bootstrap.md": false,
       "css.md": false, 
       "dom.md": false, 
       "sass.md": false, 
