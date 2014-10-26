@@ -64,3 +64,4 @@ yo angular
 * `yo angular:service myService`: app/scripts/services/myService.js
 * `yo angular:route myroute`: app/scripts/controllers/myroute.js, app/views/myroute.html
 * `yo angular:route myRoute --uri=my/route`: add my/route to app/scripts/app.js
+* `yo angular:directive navbar`: add `scripts/directives/navbar.js`
