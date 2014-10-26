@@ -2,7 +2,7 @@
 
 ## Basic Template
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -35,7 +35,7 @@
 ## navbar
 
 ```html
-<nav class="navbar navbar-inverse" ng-controller="NavCtrl" role="navigation">
+<nav class="navbar navbar-inverse" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
