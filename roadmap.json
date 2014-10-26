@@ -1,4 +1,5 @@
 {
+  "a-buffer.md": false, 
   "algorithm": {
     "data-structure.md": false
   }, 
@@ -101,6 +102,5 @@
       "yeoman.md": false, 
       "grunt.md": false
     }
-  }, 
-  "z-buffer.md": false
+  }
 }
