@@ -20,7 +20,7 @@
       <header>
       </header>
     </section>
-    <script src=“xxx”></script>
+    <script src="xxx"></script>
   </body>
 </html>
 ```
