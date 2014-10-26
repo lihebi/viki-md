@@ -50,3 +50,17 @@ grunt bower
 grunt bowerInstall
 > Injects your dependencies into your index.html file.
 ```
+
+
+# Generator Angular
+
+```
+npm install -g generator-angular
+yo angular
+```
+
+* `yo angular:controller user`: app/scripts/controllers/user.js
+* `yo angular:view user`: app/views/user.html
+* `yo angular:service myService`: app/scripts/services/myService.js
+* `yo angular:route myroute`: app/scripts/controllers/myroute.js, app/views/myroute.html
+* `yo angular:route myRoute --uri=my/route`: add my/route to app/scripts/app.js
