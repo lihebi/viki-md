@@ -1,5 +1,9 @@
 # Buffer tmp for viki articles.
 
+# awesome
+
+* `mod-o`: move to next screen
+
 # atom
 
 `~/.atom/keymap.cson`
