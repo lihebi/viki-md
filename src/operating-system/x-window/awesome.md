@@ -20,6 +20,12 @@ Navigation
 * `Mod-j`: Focus next client
 * `Mod-k`: Focus previous client
 
+Move tag
+
+* `Mod-S [1-9]`: move current panel to tag [1-9]
+* `Mod-C [1-9]`: join/remove tag [1-9] from current selection. Will display windows of every tag.
+* `Mod-C-S [1-9]`: **COPY/REMOVE** current window to panel [1-9]. Close each of them will result in close all.
+
 ## Multi Monotors
 
 Query Monitors
