@@ -4,6 +4,9 @@
 
 * `mod-o`: move to next screen
 
+* `mod-<mouse-right>`: resize in float mode on not maxized client
+* `mod-<mouse-left>`: move
+
 # atom
 
 `~/.atom/keymap.cson`
