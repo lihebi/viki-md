@@ -1,5 +1,19 @@
 # Buffer tmp for viki articles.
 
+# atom
+
+`~/.atom/keymap.cson`
+
+```
+'.editor':
+  'ctrl-n': 'core:move-down'
+  'ctrl-p': 'core:move-up'
+  'ctrl-b': 'core:move-left'
+  'ctrl-f': 'core:move-right'
+  'ctrl-d': 'core:delete'
+  'ctrl-h': 'core:backspace'
+```
+
 # git
 
 add all deleted files for commitment:
