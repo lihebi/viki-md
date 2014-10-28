@@ -1,5 +1,14 @@
 # Buffer tmp for viki articles.
 
+# demo for 7
+
+```
+printf ("hello world\n");
+```
+
+**HELLO** *7*
+hello `world` !
+
 # awesome
 
 * `mod-o`: move to next screen
