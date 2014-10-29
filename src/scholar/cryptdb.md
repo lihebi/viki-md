@@ -1,7 +1,6 @@
 # CryptDB
 
-CryptDB: Protecting Confidentiality with Encrypted Query Processing
-
+* `title`: CryptDB: Protecting Confidentiality with Encrypted Query Processing
 * `Author`: Raluca Ada Popa
 * `date`: 2011
 * `site`: 205 util 10/29/2014
