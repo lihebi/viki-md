@@ -8,8 +8,6 @@
 
 ## Problem
 
-Create and maintain efficient authenticated data structures holding info about validity of certificates.
-
 Wide use of public key cryptography 需要验证 authenticity of public keys.
 使用的是Public Key Infrastructure(PKI)的certificate, 包括key和过期时间。
 过期时间之前，想要把它revoke掉。怎么做？
@@ -18,6 +16,10 @@ Wide use of public key cryptography 需要验证 authenticity of public keys.
 
 * new solution for problem of certificate revocation
 * solution gains in `scalability`, `communication costs`, `robustness to parameter changes and update rate`
+
+## Idea
+
+Create and maintain efficient `authenticated data structures` holding info about validity of certificates.
 
 ## concepts
 
