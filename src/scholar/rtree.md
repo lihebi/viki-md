@@ -1,28 +1,23 @@
-# R-Trees: A Dynamic Index Structure For Spatial Searching
+# R-Trees
 
-By: Antonin Guttman, UCB
+R-Tree: A Dynamic Index Structure For Spatial Searching
 
-Publish: 1984 ACM
+* `Author`: Antonin Guttman, UCB
+* `Publish`: 1984 ACM
+* `CiteBy`: 7218
+* `link`: http://www-db.deis.unibo.it/courses/SI-LS/papers/Gut84.pdf
 
-# Problem
+## Problem
 
 No Indexing method suited to **data objects of non-zero size located in multi-dimensional spaces**.
 
-# Why Difficult?
-
-# Contributions
+## Contributions
 
 * Describe a dynamic index structure called R-Tree to meet the problem.
 * Give algorithms for searching and updating it.
 * Implementation and Performance.
 
-# Related Work
-
-* B-Tree
-
-# Basic Idea
-
-# Argue Start!!!
+## Comments
 
 In CondenseTree algorithm, when a node has fewer than `m` entries,
 delete the node and add **ALL Entries of N** to `Q`.
