@@ -21,6 +21,9 @@ Wide use of public key cryptography 需要验证 authenticity of public keys.
 
 Create and maintain efficient `authenticated data structures` holding info about validity of certificates.
 
+在他们设计的data structure中，怎么找到`authenticate directory`。
+也就是，核心是`authentiated search data structures`.
+
 ## concepts
 
 * `a certificate`: message signed by a 
