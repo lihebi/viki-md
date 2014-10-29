@@ -1,4 +1,4 @@
-# Reduce Trust Required of publishers of large database
+# Authentic Data Publication
 
 * `title`: Authentic Data Publication over the Internet
 * `author`: Premkumar Devanbu, UCD
