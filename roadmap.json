@@ -29,7 +29,8 @@
       "archlinux.md": false
     }, 
     "configure": {
-      "dotfiles.md": false
+      "dotfiles.md": false, 
+      "xinitrc.md": false
     }, 
     "x-window": {
       "awesome.md": false
