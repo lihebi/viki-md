@@ -1,7 +1,6 @@
 # R-Trees
 
-R-Tree: A Dynamic Index Structure For Spatial Searching
-
+* `title`: R-Tree: A Dynamic Index Structure For Spatial Searching
 * `Author`: Antonin Guttman, UCB
 * `date`: 1984 ACM
 * `CiteBy`: 7218 util 10/29/2014
