@@ -60,7 +60,8 @@
   }, 
   "scholar": {
     "cryptdb.md": false, 
-    "rtree.md": false
+    "rtree.md": false,
+    "list.md": false
   }, 
   "script-languages": {
     "python.md": false
