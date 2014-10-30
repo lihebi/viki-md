@@ -25,7 +25,7 @@
 * `projection operator`: retains only X columns. X can be AC, to choose column A and C from r to form a new table.
 
 ```katex
-\prod_X(r) = {x[X]:x\inr}
+\prod_X(r) = {x[X]:x \in r}
 ```
 
 | A | B | C |
@@ -34,6 +34,16 @@
 | 5 | 4 | 2 |
 | 5 | 6 | 2 |
 | 7 | 8 | 3 |
+
+```katex
+\prod_AC(r)
+```
+
+| A | C |
+| :---: | :---: |
+| 1 | 4 |
+| 5 | 2 |
+| 7 | 3 |
 
 
 # demo for 7
