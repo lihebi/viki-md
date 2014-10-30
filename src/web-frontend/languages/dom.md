@@ -13,3 +13,9 @@ screen.width
 
 ## 获取当前页面网址
 document.URL
+
+## get element
+
+```
+document.getElementById('myid')
+```
