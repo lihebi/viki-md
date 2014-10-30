@@ -1,5 +1,6 @@
 {
   "a-buffer.md": false, 
+  "katex.md": false,
   "algorithm": {
     "data-structure.md": false
   }, 
