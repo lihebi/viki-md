@@ -76,10 +76,10 @@
 \wedge
 ```
 
-* `\neg`
+* `\\neg`
 
 ```katex
-\neg
+\\neg
 ```
 
 ## 比较
