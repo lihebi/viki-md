@@ -16,7 +16,7 @@
 * `selection operator`: select tuples of r that satisfy condition c
 
 ```katex
-\rho{c}(r) % this is comment
+\rho{c}(r)
 ```
 
 
