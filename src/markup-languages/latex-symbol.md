@@ -2,25 +2,25 @@
 
 ## 希腊字母
 
-* `\alpha`
+`\alpha`
 
 ```katex
 \alpha
 ```
 
-* `\theta`
+`\theta`
 
 ```katex
 \theta
 ```
 
-* `\phi`
+`\phi`
 
 ```katex
 \phi
 ```
 
-* `\varphi`
+`\varphi`
 
 ```katex
 \varphi
@@ -44,9 +44,15 @@
 \pi
 ```
 
+`\rho`
+
+```katex
+\rho
+```
+
 ## 集合
 
-* `\cup`
+`\cup`
 
 ```katex
 \cup
@@ -58,19 +64,19 @@
 \bigcup
 ```
 
-* `\cap`
+`\cap`
 
 ```katex
 \cap
 ```
 
-* `\vee`
+`\vee`
 
 ```katex
 \vee
 ```
 
-* `\wedge`
+`\wedge`
 
 ```katex
 \wedge
