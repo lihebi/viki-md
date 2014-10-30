@@ -13,11 +13,27 @@
     * a relation can have multiple keys. `r(A,B,C,D,E)` can have `{A,B,C}` and `{B,D}` as its key
 * `primary key`: impose an ordering of tuples in a relation. Only one primary key.
 * `foreign key`: a foreign key should be a primary key in some other relations.
+
+### operations
+
 * `selection operator`: select tuples of r that satisfy condition c
 
 ```katex
 \rho_c(r)
 ```
+
+* `projection operator`: retains only X columns. X can be AC, to choose column A and C from r to form a new table.
+
+```katex
+\prod_X(r) = {x[X]:x\inr}
+```
+
+| A | B | C |
+| :---: | :---: | :---: |
+| 1 | 2 | 4 |
+| 5 | 4 | 2 |
+| 5 | 6 | 2 |
+| 7 | 8 | 3 |
 
 
 # demo for 7
