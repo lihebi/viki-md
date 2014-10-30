@@ -17,3 +17,11 @@ $('li').each(function(index)) {
   $(this).text();
 };
 ```
+
+## jquery to dom
+
+```
+$('#test').get()[0]
+// same as
+document.getElementById('test')
+```
