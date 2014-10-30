@@ -17,7 +17,8 @@
   "markup-languages": {
     "regexp.md": false, 
     "latex.md": false, 
-    "markdown.md": false
+    "markdown.md": false,
+    "latex-symbol.md": false
   }, 
   "operating-system": {
     "shell": {
