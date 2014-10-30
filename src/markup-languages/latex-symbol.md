@@ -70,10 +70,10 @@
 \vee
 ```
 
-* `\vedge`
+* `\wedge`
 
 ```katex
-\vedge
+\wedge
 ```
 
 * `\neg`
