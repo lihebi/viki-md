@@ -1,5 +1,25 @@
 # Buffer tmp for viki articles.
 
+## Database
+
+### concepts
+
+* `attribute`: column name
+* `relation scheme`: a set of attributes
+* `tuple`: S is a scheme. A tuple over S is an assignment of values to attributes of S.
+* `superkey`: a set of attributes that identify tuples uniquely
+* `key`: a minimal set of attributes that form a superkey
+    * a key can have multiple attributes, for example, `{CourseCode, StudentID}`.
+    * a relation can have multiple keys. `r(A,B,C,D,E)` can have `{A,B,C}` and `{B,D}` as its key
+* `primary key`: impose an ordering of tuples in a relation. Only one primary key.
+* `foreign key`: a foreign key should be a primary key in some other relations.
+* `selection operator`: select tuples of r that satisfy condition c
+
+```katex
+\rho{c}(r) % this is comment
+```
+
+
 # demo for 7
 
 ```
