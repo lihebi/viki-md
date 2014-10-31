@@ -6,4 +6,4 @@
 
 $x_1$
 
-$Leftrightarrow$
+$\Leftrightarrow$
