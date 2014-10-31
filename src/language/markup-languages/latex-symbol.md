@@ -25,8 +25,6 @@
 
 * `\leq`: <span class="katex">\leq</span>
 * `\geq`: <span class="katex">\geq</span>
-<!-- * `\ll`: <span class="katex">\ll</span>
-* `\gg`: <span class="katex">\gg</span> -->
 
 ## arrow
 
