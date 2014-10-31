@@ -3,7 +3,6 @@
   "algorithm": {
     "data-structure.md": false
   }, 
-  "katex.md": false, 
   "language": {
     "script-languages": {
       "ruby.md": false, 
