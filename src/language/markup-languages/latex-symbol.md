@@ -33,7 +33,6 @@
 
 ## logic
 
-* `\exists`: <span class="katex">\exists</span>
 * `\infty`: <span class="katex">\infty</span>
 
 ## Math
