@@ -97,3 +97,7 @@ str.slice(begin, end)
 ```
 data.replace(/\\"/g, '"');
 ```
+
+```
+data.replace(/\$([^$]+)\$/g, '<span class="katex">'+'$1'+'</span>');
+```
