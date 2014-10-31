@@ -30,7 +30,6 @@
 
 * `\leftarrow`: <span class="katex">\leftarrow</span>
 * `\rightarrow`: <span class="katex">\rightarrow</span>
-* `\Leftrightarrow`: <span class="katex">\Leftrightarrow</span>
 
 ## logic
 
