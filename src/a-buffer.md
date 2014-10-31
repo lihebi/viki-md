@@ -2,4 +2,4 @@
 
 <p>Hello</p>
 
-<span class="katex">x_1+x_2</span> means <pre>x_1+x_2</pre>
+<span class="katex">x_1+x_2 = \sum_{x}{y} x</span> means <pre>x_1+x_2</pre>
