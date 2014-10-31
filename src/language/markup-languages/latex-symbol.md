@@ -2,7 +2,7 @@
 
 ## 希腊字母
 
-* `\alpha` <span class="katex">\alpha</span>
+* `\alpha` $\alpha$
 * `\theta` <span class="katex">\theta</span>
 * `\phi`: <span class="katex">\phi</span>
 * `\varphi`: <span class="katex">\varphi</span>
