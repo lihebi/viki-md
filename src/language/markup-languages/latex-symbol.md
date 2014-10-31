@@ -4,194 +4,51 @@
 
 * `\alpha` <span class="katex">\alpha</span>
 * `\theta` <span class="katex">\theta</span>
-* `\phi`
-
-```katex
-\phi
-```
-
-`\varphi`
-
-```katex
-\varphi
-```
-
-`\xi`
-
-```katex
-\xi
-```
-
-`\mu`
-
-```katex
-\mu
-```
-
-`\pi`
-
-```katex
-\pi
-```
-
-`\rho`
-
-```katex
-\rho
-```
-
-`\sigma`
-
-```katex
-\sigma
-```
+* `\phi`: <span class="katex">\phi</span>
+* `\varphi`: <span class="katex">\varphi</span>
+* `\xi`: <span class="katex">\xi</span>
+* `\mu`: <span class="katex">\mu</span>
+* `\pi`: <span class="katex">\pi</span>
+* `\rho`: <span class="katex">\rho</span>
+* `\sigma`: <span class="katex">\sigma</span>
 
 ## 集合
 
-`\cup`
-
-```katex
-\cup
-```
-
-`\bigcup`
-
-```katex
-\bigcup
-```
-
-`\cap`
-
-```katex
-\cap
-```
-
-`\vee`
-
-```katex
-\vee
-```
-
-`\wedge`
-
-```katex
-\wedge
-```
-
-`\in`
-
-```katex
-\in
-```
+* `\cup`: <span class="katex">\cup</span>
+* `\bigcup`: <span class="katex">\bigcup</span>
+* `\cap`: <span class="katex">\cap</span>
+* `\vee`: <span class="katex">\vee</span>
+* `\wedge`: <span class="katex">\wedge</span>
+* `\in`: <span class="katex">\in</span>
 
 ## 比较
 
-`\leq`
-
-```katex
-\leq
-```
-
-`geq`
-
-```katex
-\geq
-```
-
-`\ll`
-
-```katex
-\ll
-```
-
-`\gg`
-
-```katex
-\gg
-```
+* `\leq`: <span class="katex">\leq</span>
+* `geq`: <span class="katex">\geq</span>
+* `\ll`: <span class="katex">\ll</span>
+* `\gg`: <span class="katex">\gg</span>
 
 ## arrow
 
-`\leftarrow`
-
-```katex
-\leftarrow
-```
-
-`\rightarrow`
-
-```katex
-\rightarrow
-```
-
-`\Leftrightarrow`
-
-```katex
-\Leftrightarrow
-```
+* `\leftarrow`: <span class="katex">\leftarrow</span>
+* `\rightarrow`: <span class="katex">\rightarrow</span>
+* `\Leftrightarrow`: <span class="katex">\Leftrightarrow</span>
 
 ## logic
 
-`\exists`
-
-```katex
-\exists
-```
-
-`\infty`
-
-```katex
-\infty
-```
+* `\exists`: <span class="katex">\exists</span>
+* `\infty`: <span class="katex">\infty</span>
 
 ## Math
 
-`\sum`
-
-```katex
-\sum
-```
-
-`\prod`
-
-```katex
-\prod
-```
-
-`\hat{a}`
-
-```katex
-\hat{a}
-```
-
-`\frac{a}{b}`
-
-```katex
-\frac{a}{b}
-```
-
-`f'`
-
-```katex
-f'
-```
-
-`\ldots`
-
-```katex
-\ldots
-```
-
-`\sqrt{n}`
-
-```katex
-\sqrt{n}
-```
+* `\sum`: <span class="katex">\sum</span>
+* `\prod`: <span class="katex">\prod</span>
+* `\hat{a}`: <span class="katex">\hat{a}</span>
+* `\frac{a}{b}`: <span class="katex">\frac{a}{b}</span>
+* `f'`: <span class="katex">f'</span>
+* `\ldots`: <span class="katex">\ldots</span>
+* `\sqrt{n}`: <span class="katex">\sqrt{n}</span>
 
 ## general
 
-`\:`: media space
-
-```katex
-\:
-```
+* `\:`: media space
