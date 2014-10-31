@@ -44,6 +44,7 @@
 * `f'`: <span class="katex">f'</span>
 * `\ldots`: <span class="katex">\ldots</span>
 * `\sqrt{n}`: <span class="katex">\sqrt{n}</span>
+* `\overline{abc}`: <span class="katex">\overline{abc}</span>
 
 ## general
 
