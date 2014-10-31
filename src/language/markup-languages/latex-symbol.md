@@ -2,19 +2,9 @@
 
 ## 希腊字母
 
-`\alpha`
-
-```katex
-\alpha
-```
-
-`\theta`
-
-```katex
-\theta
-```
-
-`\phi`
+* `\alpha` <span class="katex">\alpha</span>
+* `\theta` <span class="katex">\theta</span>
+* `\phi`
 
 ```katex
 \phi
