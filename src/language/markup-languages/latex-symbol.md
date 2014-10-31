@@ -48,3 +48,10 @@
 ## general
 
 * `\:`: media space
+
+## Unsupported on katex
+
+* `\exists`
+* `\Leftrightarrow`
+* `\ll`
+* `\gg`
