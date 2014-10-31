@@ -1,113 +1,129 @@
 {
   "a-buffer.md": false, 
-  "katex.md": false,
   "algorithm": {
     "data-structure.md": false
   }, 
-  "formal-languages": {
-    "c++.md": false, 
-    "c": {
-      "stdio.h.md": false, 
-      "stdlib.h.md": false, 
-      "std.md": false, 
-      "socket.md": false, 
-      "unistd.h.md": false
+  "katex.md": false, 
+  "language": {
+    "script-languages": {
+      "ruby.md": false, 
+      "python.md": false
+    }, 
+    "formal-languages": {
+      "c++.md": false, 
+      "c": {
+        "stdio.h.md": false, 
+        "stdlib.h.md": false, 
+        "std.md": false, 
+        "socket.md": false, 
+        "unistd.h.md": false
+      }, 
+      "java.md": false
+    }, 
+    "markup-languages": {
+      "regexp.md": false, 
+      "markdown.md": false, 
+      "latex-symbol.md": false, 
+      "latex.md": false
     }
-  }, 
-  "markup-languages": {
-    "regexp.md": false, 
-    "latex.md": false, 
-    "markdown.md": false,
-    "latex-symbol.md": false
-  }, 
-  "operating-system": {
-    "shell": {
-      "shell2.md": false, 
-      "shell.md": false
-    }, 
-    "installation": {
-      "liveusb.md": false, 
-      "debian.md": false, 
-      "archlinux.md": false
-    }, 
-    "configure": {
-      "dotfiles.md": false, 
-      "xinitrc.md": false
-    }, 
-    "x-window": {
-      "awesome.md": false
-    }, 
-    "mac": {
-      "mac.md": false, 
-      "swift.md": false, 
-      "software.md": false, 
-      "applescript.md": false
-    }, 
-    "linux": {
-      "built-in-software.md": false, 
-      "job.md": false, 
-      "admin.md": false, 
-      "concept.md": false, 
-      "tmux.md": false, 
-      "shortcuts.md": false, 
-      "lfs.md": false, 
-      "filesystem.md": false
-    }
-  }, 
-  "platform": {
-    "heroku.md": false, 
-    "docker.md": false, 
-    "github-repos.md": false, 
-    "github.md": false
   }, 
   "scholar": {
     "cryptdb.md": false, 
     "mining_association_rules.md": false, 
+    "certificate_revocation.md": false, 
     "authentic_data_publication.md": false, 
-    "list.md": false, 
-    "rtree.md": false,
-    "certificate_revocation.md": false
+    "rtree.md": false
   }, 
-  "script-languages": {
-    "python.md": false
-  }, 
-  "software": {
-    "gfw.md": false, 
-    "emacs.md": false, 
-    "vim.md": false, 
-    "jekyll.md": false, 
-    "openvpn.md": false, 
-    "vimrc.md": false, 
-    "pptp.md": false, 
-    "atom.md": false, 
-    "redis.md": false
-  }, 
-  "web-backend": {
-    "ruby.md": false, 
-    "node.md": false, 
-    "npm.md": false, 
-    "apache.md": false, 
-    "php.md": false
-  }, 
-  "web-frontend": {
-    "languages": {
-      "dom.md": false, 
-      "html.md": false, 
-      "ejs.md": false, 
-      "css.md": false, 
-      "javascript.md": false, 
-      "sass.md": false
+  "tools": {
+    "platform": {
+      "heroku.md": false, 
+      "docker.md": false, 
+      "github-repos.md": false, 
+      "github.md": false
     }, 
-    "framework": {
-      "angular.md": false, 
-      "bootstrap.md": false, 
-      "jquery.md": false, 
-      "backbone.md": false
+    "software": {
+      "gfw.md": false, 
+      "emacs.md": false, 
+      "vim.md": false, 
+      "ffmpeg.md": false, 
+      "jekyll.md": false, 
+      "openvpn.md": false, 
+      "vimrc.md": false, 
+      "adblock.md": false, 
+      "ps.md": false, 
+      "pptp.md": false, 
+      "atom.md": false, 
+      "redis.md": false
     }, 
-    "tools": {
-      "bower.md": false, 
-      "yeoman.md": false, 
-      "grunt.md": false
+    "operating-system": {
+      "shell": {
+        "shell2.md": false, 
+        "shell.md": false
+      }, 
+      "installation": {
+        "liveusb.md": false, 
+        "debian.md": false, 
+        "archlinux.md": false
+      }, 
+      "configure": {
+        "dotfiles.md": false, 
+        "xresource.md": false, 
+        "xinitrc.md": false
+      }, 
+      "x-window": {
+        "awesome.md": false
+      }, 
+      "mac": {
+        "mac.md": false, 
+        "swift.md": false, 
+        "software.md": false, 
+        "applescript.md": false
+      }, 
+      "linux": {
+        "built-in-software.md": false, 
+        "job.md": false, 
+        "admin.md": false, 
+        "concept.md": false, 
+        "hardware.md": false, 
+        "tmux.md": false, 
+        "shortcuts.md": false, 
+        "lfs.md": false, 
+        "filesystem.md": false, 
+        "trouble.md": false
+      }
+    }, 
+    "database": {
+      "db.md": false
+    }
+  }, 
+  "web": {
+    "web-backend": {
+      "ruby.md": false, 
+      "node.md": false, 
+      "npm.md": false, 
+      "apache.md": false, 
+      "php.md": false
+    }, 
+    "web-frontend": {
+      "languages": {
+        "dom.md": false, 
+        "html.md": false, 
+        "ejs.md": false, 
+        "css.md": false, 
+        "javascript.md": false, 
+        "sass.md": false
+      }, 
+      "framework": {
+        "angular.md": false, 
+        "bootstrap.md": false, 
+        "jquery.md": false, 
+        "backbone.md": false
+      }, 
+      "tools": {
+        "bower.md": false, 
+        "yeoman.md": false, 
+        "grunt.md": false
+      }
     }
   }
 }
