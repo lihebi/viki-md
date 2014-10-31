@@ -3,48 +3,48 @@
 ## 希腊字母
 
 * `\alpha` $\alpha$
-* `\theta` <span class="katex">\theta</span>
-* `\phi`: <span class="katex">\phi</span>
-* `\varphi`: <span class="katex">\varphi</span>
-* `\xi`: <span class="katex">\xi</span>
-* `\mu`: <span class="katex">\mu</span>
-* `\pi`: <span class="katex">\pi</span>
-* `\rho`: <span class="katex">\rho</span>
-* `\sigma`: <span class="katex">\sigma</span>
+* `\theta` $\theta$
+* `\phi`: $\phi$
+* `\varphi`: $\varphi$
+* `\xi`: $\xi$
+* `\mu`: $\mu$
+* `\pi`: $\pi$
+* `\rho`: $\rho$
+* `\sigma`: $\sigma$
 
 ## 集合
 
-* `\cup`: <span class="katex">\cup</span>
-* `\bigcup`: <span class="katex">\bigcup</span>
-* `\cap`: <span class="katex">\cap</span>
-* `\vee`: <span class="katex">\vee</span>
-* `\wedge`: <span class="katex">\wedge</span>
-* `\in`: <span class="katex">\in</span>
+* `\cup`: $\cup$
+* `\bigcup`: $\bigcup$
+* `\cap`: $\cap$
+* `\vee`: $\vee$
+* `\wedge`: $\wedge$
+* `\in`: $\in$
 
 ## 比较
 
-* `\leq`: <span class="katex">\leq</span>
-* `\geq`: <span class="katex">\geq</span>
+* `\leq`: $\leq$
+* `\geq`: $\geq$
 
 ## arrow
 
-* `\leftarrow`: <span class="katex">\leftarrow</span>
-* `\rightarrow`: <span class="katex">\rightarrow</span>
+* `\leftarrow`: $\leftarrow$
+* `\rightarrow`: $\rightarrow$
 
 ## logic
 
-* `\infty`: <span class="katex">\infty</span>
+* `\infty`: $\infty$
 
 ## Math
 
-* `\sum`: <span class="katex">\sum</span>
-* `\prod`: <span class="katex">\prod</span>
-* `\hat{a}`: <span class="katex">\hat{a}</span>
-* `\frac{a}{b}`: <span class="katex">\frac{a}{b}</span>
-* `f'`: <span class="katex">f'</span>
-* `\ldots`: <span class="katex">\ldots</span>
-* `\sqrt{n}`: <span class="katex">\sqrt{n}</span>
-* `\overline{abc}`: <span class="katex">\overline{abc}</span>
+* `\sum`: $\sum$
+* `\prod`: $\prod$
+* `\hat{a}`: $\hat{a}$
+* `\frac{a}{b}`: $\frac{a}{b}$
+* `f'`: $f'$
+* `\ldots`: $\ldots$
+* `\sqrt{n}`: $\sqrt{n}$
+* `\overline{abc}`: $\overline{abc}$
 
 ## general
 
