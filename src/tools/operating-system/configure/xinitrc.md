@@ -7,6 +7,10 @@ keyboard remapping
 ```
 # natural scrolling
 xmodmap -e "pointer = 1 2 3 5 4"
+# caps_lock to ctrl
+xmodmap -e "keycode 66 = Control_L"
+xmodmap -e "clear Lock"
+xmodmap -e "add Control = Control_L"
 ```
 
 input method
