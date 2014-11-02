@@ -4,6 +4,12 @@
 
 download `Tollbelt` and install.
 
+In linux, use the standalone script to install. After that, add in `~/.zshrc`:
+
+```
+export PATH="/usr/local/heroku/bin:$PATH"
+```
+
 # Usage
 
 ```
