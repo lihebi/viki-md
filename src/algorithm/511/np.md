@@ -23,4 +23,4 @@ Assume $L,L_1,L_2 \in P$:
 * 同上，只要两个都成立，就有$x \in L_1 \bigcup L_2$. Otherwise not.
 * $L_1,L_2$是两个字符串，$L_1L_2$是把两个连接起来。用$x_ij$来表示一个字符串的子串。
 对于所有n种k，decide$x_1k \in L_1$, $x_(k+1)n \in L_2$.
-* $x \in \overline{L}$ 等价于 $x  L$
+* $x \in \overline{L}$ 等价于 $x \notin L$
