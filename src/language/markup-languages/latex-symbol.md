@@ -20,6 +20,8 @@
 * `\vee`: $\vee$
 * `\wedge`: $\wedge$
 * `\in`: $\in$
+* `\notin`: $\notin$
+* `\neg`: $\neg$
 
 ## 比较
 
