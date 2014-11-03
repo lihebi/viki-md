@@ -131,7 +131,8 @@
         "bower.md": false, 
         "yeoman.md": false, 
         "grunt.md": false
-      }
+      }, 
+      "built-in.md": false
     }
   }
 }
