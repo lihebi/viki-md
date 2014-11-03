@@ -15,12 +15,21 @@ If $L_1,L_2 \in P$, then
 * $\overline{L_1} \in P$
 * $L_1^* \in P$
 
-**Solution**
+#### Solution
 
 Assume $L,L_1,L_2 \in P$:
 
-* decide if $x \in L_1$ and $x \in L_2$. 只要有一个成立，就会有$x \in L_1 \bigcup L_2$. Otherwise not.
-* 同上，只要两个都成立，就有$x \in L_1 \bigcup L_2$. Otherwise not.
-* $L_1,L_2$是两个字符串，$L_1L_2$是把两个连接起来。用$x_ij$来表示一个字符串的子串。
-对于所有n种k，decide$x_1k \in L_1$, $x_(k+1)n \in L_2$.
-* $x \in \overline{L}$ 等价于 $x \notin L$
+* `$L_1 \bigcup L_2$`: decide if $x \in L_1$ and $x \in L_2$. 只要有一个成立，就会有$x \in L_1 \bigcup L_2$. Otherwise not.
+* `$L_1 \bigcap L_2$`: 同上，只要两个都成立，就有$x \in L_1 \bigcap L_2$. Otherwise not.
+* `$L_1L_2$`: $L_1,L_2$是两个字符串，$L_1L_2$是把两个连接起来。用$x_{ij}$来表示一个字符串的子串。
+对于所有n种k，decide$x_{1k} \in L_1$, $x_{(k+1)n} \in L_2$.
+* `$\overline{L}$`: $x \in \overline{L}$ 等价于 $x \notin L$
+* `$L^*$`:
+
+`Kleene star`: $L^*=\bigcup_{i\in N}L^k$ where $L^(k+1) = LL^k$.
+
+我们证明对于所有k,有$\bigcup_{i=0-k}$成立。用induction.
+
+当$k=0$，空集，显然。
+
+假设k成立，对于k+1，有$L^{k+1}=LL^k$。
