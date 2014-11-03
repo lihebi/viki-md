@@ -99,6 +99,7 @@
     }
   }, 
   "web": {
+    "cors.md": false,
     "web-backend": {
       "ruby.md": false, 
       "node.md": false, 
