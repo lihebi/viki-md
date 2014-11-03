@@ -22,11 +22,16 @@
 * `\in`: $\in$
 * `\notin`: $\notin$
 * `\neg`: $\neg$
+* `\subset`: $\subset$
+* `\subseteq`: $\subseteq$
+* `\supset`: $\supset$
+* `\supseteq`: $\supseteq$
 
 ## 比较
 
-* `\leq`: $\leq$
-* `\geq`: $\geq$
+* `\leq` or `\le`: $\leq$
+* `\geq` or `\ge`: $\geq$
+* `\neq`: $\neq$
 
 ## arrow
 
@@ -47,6 +52,7 @@
 * `\ldots`: $\ldots$
 * `\sqrt{n}`: $\sqrt{n}$
 * `\overline{abc}`: $\overline{abc}$
+* `\times`: $\times$
 
 ## general
 
