@@ -63,7 +63,7 @@ Assume No P algorithm for A. Assume A is NPC, we can prove B is also NPC.
 
 一个有向图中，找到从一个起点出发的最短路径。即使包含负边，也可以在$O(VE)$找到。
 
-## Longest simple path
+### Longest simple path
 
 仅仅决定一个图中是否含有一条path，包括一个给定数字以上的路径，都时`NP-Complete`。
 
