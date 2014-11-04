@@ -15,6 +15,8 @@ $P \subseteq NP$
 If any `NP-complete` problem can be solved in polynomial time,
 every problemm in `NP` has a polynomial algorithm.
 
+* `co-NP`: the set of languages L such that $\overline{L} \in NP$
+
 ### 3 key concepts in showing a problem to be NP-complete
 
 #### `Decision problem` and `optimization problem`
@@ -120,3 +122,16 @@ Assume $L,L_1,L_2 \in P$:
 当$k=0$，空集，显然。
 
 假设k成立，对于k+1，有$L^{k+1}=LL^k$。
+
+### 34.2-9
+
+Prove that $P \subseteq co-NP$
+
+#### Solution
+
+$L \in P$ => $\overline{L} \in P \subseteq NP$
+
+### 34-1
+
+#### Solution
+
