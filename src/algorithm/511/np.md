@@ -167,7 +167,7 @@ $L \in P$ => $\overline{L} \in P \subseteq NP$
 
 a).
 
-INDEPENDENT-SET = {<G,k>:G is a graph containing a independent-set of size k}
+INDEPENDENT-SET = {$<G,k>$:G is a graph containing a independent-set of size k}
 
 图中选出一些顶点，两两不连。
 
