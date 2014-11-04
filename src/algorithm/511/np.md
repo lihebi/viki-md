@@ -90,6 +90,30 @@ $(x_1 \vee \neg x_2) \wedge (\neg x_2 \vee x_3) \wedge (\neg x_2 \vee \neg x_3)$
 determine whether 2-CNF is satisfiable is P,
 determine whether 3-CNF is satisfiable is NP-complete
 
+## NPC and reducitility
+
+### reducitility
+
+* language $L_1$ is **polynomial-time reducible** to $L_2$, written $L_1 \le_p L_2$,
+if 存在P时间的函数f, s.t. $x \in L_1$ is and only if $f(x) \in L_2$
+
+意味着问题$L_1$可以转化成问题$L_2$，所以只要$L_2$有解，$L_1$同样有解。
+$L_1$ is not more than a polynomial factor harder than $L_2$.
+
+`Lemma 34.3`: if $L_1 \le_p L_2$, then $L_2 \in P$ implies $L_1 \in P$.
+
+### NPC & NPH
+
+a language $L \subseteq {0,1}^*$ is `NP-complete` if:
+
+1. $L \in NP$
+2. $L' \le_p L$ for every $L' \in NP$
+
+`NP-hard`: L satisfies 2 but not 1.
+
+`Theorem 34.4`: 如果任意一个NPC problem都是P solvable的，那么$P=NP$.
+如果任意NP problem都不是P solvable的，那么所有NPC problem都不是P solvable的。
+
 ## Homeworks
 
 ### 34.1-6
