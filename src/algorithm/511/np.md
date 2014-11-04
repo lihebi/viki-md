@@ -55,7 +55,7 @@ Assume No P algorithm for A. Assume A is NPC, we can prove B is also NPC.
 
 #### A first NPC problem
 
-## Problems
+## Intro problems
 
 * `an instance of a problem`: the input to a problem. E.g. Graph G for PATH problem.
 
@@ -114,6 +114,12 @@ a language $L \subseteq {0,1}^*$ is `NP-complete` if:
 `Theorem 34.4`: 如果任意一个NPC problem都是P solvable的，那么$P=NP$.
 如果任意NP problem都不是P solvable的，那么所有NPC problem都不是P solvable的。
 
+## NPC Problems
+
+### clique
+
+图中选出一些顶点，两两相连。
+
 ## Homeworks
 
 ### 34.1-6
@@ -159,3 +165,38 @@ $L \in P$ => $\overline{L} \in P \subseteq NP$
 
 #### Solution
 
+a).
+
+$INDEPENDENT-SET = {<G,k>:G is a graph containing a independent-set of size k}$
+
+图中选出一些顶点，两两不连。
+
+Prove NPC:
+
+证明是NP. 构造一个验证。$V((G=(V,E), K), C)$，其中C是certificate,也就是一个顶点集，用来判断是不是Independent set。
+需要做两件事：1. $|C| \le K$ 2. C构成independent set。 两个都可以在P内完成。
+
+证明是NP-hard。用clique来推导。根据G，构造一个$G'$，顶点不变，所有边去掉，所有没有边的加上边。
+这时候，有：
+如果nodes are independent set in $G$, then they form a clique in $G'$;
+如果nodes form a clique in $G'$, then they are independent set in $G$.
+
+b).
+
+1. find the maximum size independent set. Since $K \le |V|$, $O(V)$.
+2. Once the maximum K is found, we need to 决定哪些v在里面。
+
+在G中选一个v，将其和所有其他顶点相连。黑箱测试$(G',K)$。
+如果成功，说明v不在independent set中。$G=G'$.继续测试下一个v。
+如果失败，说明v在set中。用G做下一个v的测试。
+
+复杂度分析：共有v个点，每个点要连其余v-1个点，共$O(V^2)$.
+
+c).
+
+每个节点的degree都是2，说明，是一个cycle。显然，every other vertex. 直接选出来就可以了，所以$O(V)$.
+
+d).
+
+maximum independent set is the side with the larger number of vertices.
+直接比较一下多少就可以，所以$O(V)$.
