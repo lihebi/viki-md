@@ -16,15 +16,11 @@
 
 * `selection operator`: select tuples of r that satisfy condition c
 
-```katex
-\rho_c(r)
-```
+$\rho_c(r)$
 
 * `projection operator`: retains only X columns. X can be AC, to choose column A and C from r to form a new table.
 
-```katex
-\prod_X(r) = {x[X]:x \in r}
-```
+$\prod_X(r) = {x[X]:x \in r}$
 
 | A | B | C |
 | :---: | :---: | :---: |
@@ -33,9 +29,7 @@
 | 5 | 6 | 2 |
 | 7 | 8 | 3 |
 
-```katex
-\prod_AC(r)
-```
+$\prod_AC(r)$
 
 | A | C |
 | :---: | :---: |
