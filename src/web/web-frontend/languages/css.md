@@ -1,20 +1,12 @@
 
-# 基础
+## small tips
 
-margin可以是负的
-
-padding不可以
+* margin可以是负的,padding不可以
+* color: red !important;
 
 ## 选择器
 
-nth-child
-
-```
-element:nth-child(an + b) /* n start from 0, but 元素 from 1. 即第一个元素id是1 */
-```
-
-
-examples:
+* `element:nth-child(an + b)`: n start from 0, but 元素 from 1. 即第一个元素id是1
 
 ```
 tr:nth-child(2n+1)
@@ -24,9 +16,18 @@ span:nth-child(1) /* span的父节点的第一个孩子 */
 span:nth-child(-n+3) /* 前三个 */
 ```
 
-# 效果
+* `:root { xxx; }`: select the highest level node in DOM. For html, it is `<html>`
+* `p:first-line`: the first line that is actually showed. first-letter select the first letter.
+* `p:first-letter`
+* `ul li:not(.active)`
+* `div > p`: child selector. p必须是div的直接子。
+* `span + span`: 直接相邻选择器。两个必须有同一parent，并且是紧密相邻。
+* `div ~ p`: all p that are siblings of div
 
-## box-shadow
+
+## 效果
+
+### box-shadow
 
 ```
 box-shadow: <offset-x> <offset-y> <blur-radius>? <spread-radius>? <color>?
@@ -44,7 +45,7 @@ examples:
 box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 ```
 
-## transform
+### transform
 
 ```
 transform: none
@@ -72,7 +73,7 @@ transform: perspective(17px)
 transform: translateX(10px) rotate(10deg) translateY(5px)
 ```
 
-#### transition
+### transition
 
 examples:
 
@@ -102,30 +103,31 @@ transition-delay: 2s;
 
 相对于正常。如果不设top,left,..，则无变化。
 其引入两个特征：
-1. 可以使用`z-index`了。如果不指定`z-index`，它会出现在所有`static`元素的上方。
-2. 其子元素，若是`absolute`，其`absolute`的区域是此`relative`
+
+* 可以使用`z-index`了。如果不指定`z-index`，它会出现在所有`static`元素的上方。
+* 其子元素，若是`absolute`，其`absolute`的区域是此`relative`
 
 ### absolute
 
 相对于一个`relative`或`absolute`的父节点。若无，则`hmtl`。
 从`flow`中消失，不会影响也不会受其他元素影响。
-##fixed
+
+###fixed
+
 相对于`viewport`来说。
 
-## !important
+## Trouble Shooting
 
-color: red !important;
-
-## inline-block item 之间会有默认的space，如何除去：
+### inline-block item 之间会有默认的space，如何除去：
 
 1. 把parent的font-size设为0
 2. 把所有元素放到一行，中间没有空格
 3. 把所有元素的换行用注释去掉
 4. 把</div>的>放到下一行的开始
 
-# 片段
+## Snippets
 
-## file input button
+### file input button
 
 ```
 <span class="btn btn-success fileinput-button">
@@ -153,7 +155,7 @@ color: red !important;
 }
 ```
 
-## CSS Div中居中：
+### CSS Div中居中：
 
 horizontal:
 
