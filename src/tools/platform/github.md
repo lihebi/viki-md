@@ -1,24 +1,27 @@
-# Git
+Git
+===
 
-## really github
+## Small Tips
 
-```
-github search stars:>100
-```
+* `github search stars:>100`: search for most starred projects on github
 
-## 安装和配置
+## Configure
+
+User Identity
 
 ```
 git config --global user.email 'xxx@xxx'
 git config --global user.name 'xxx'
 ```
 
+Credential
+
 ```
 git config --global credential.helper cache # cache 15 min by default
 git config --global credential.helper 'cache --timeout=3600' # set in sec
 ```
 
-自定义配置
+a better log
 
 ```
 git config --global alias.lg \
@@ -27,37 +30,40 @@ git config --global alias.lg \
 --abbrev-commit"
 ```
 
-## 概念
+## Concepts
 
-工作区: 你当前看到的目录
+* 工作区(working directory): 你当前看到的目录
+* 暂存区(staging area): git add 后,将会放到此处,commit会放到版本库.
+* 版本库(git directory): `.git`文件夹中的内容
 
-版本库: `.git`文件夹中的内容
+## Usage
 
-暂存区: git add 后,将会放到此处,commit会放到版本库.
 
-## 使用
 
-### 新建
+### Local Operations
+
+#### stage file
+
+* `git add -u`: add all deleted files for commitment. It will NOT add untracked file.
+
+#### Commit file
+
+#### checkout file
+
+### remote
+
+add
 
 ```
-git add .
-git commit -m 'xxx'
 git remote add origin https://github.com/lihebi/xxx.git
+```
+
+push
+
+```
+git push
+git push origin master
 git push -u origin master
-```
-
-### add all deleted files
-
-add all deleted files for commitment:
-
-```
-git add -u
-```
-
-it will not add untracked files, so I still need:
-
-```
-git add .
 ```
 
 #### 关于`-u`的解释
@@ -69,8 +75,6 @@ git add .
 
 所以说,第一次push的时候还是加上`-u`,以后才能用`git push origin master`用的放心.
 
-See Also: [stackoverflow][gitpush]
-[gitpush]: http://stackoverflow.com/questions/5697750/what-exactly-does-the-u-do-git-push-u-origin-master-vs-git-push-origin-ma
 
 ## 分支
 
