@@ -134,5 +134,8 @@
       }, 
       "built-in.md": false
     }
+  }, 
+  "zzz": {
+    "music.md": false
   }
 }
