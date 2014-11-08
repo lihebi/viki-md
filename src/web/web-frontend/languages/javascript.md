@@ -2,7 +2,7 @@
 
 ## Small Tips
 
-* `typeof xxx`: return "String", "Object", etc.
+* `typeof xxx`: return "string", "object", etc.
 
 
 ## 函数
