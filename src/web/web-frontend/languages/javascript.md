@@ -1,8 +1,13 @@
+# Javascript
 
-# 函数
+## Small Tips
 
-## 函数定义
+* `typeof xxx`: return "String", "Object", etc.
 
+
+## 函数
+
+### 函数定义
 
 ```
 function xxx() {}
@@ -17,17 +22,17 @@ var func = function xxx() {}
 只有执行到这句的时候才会存在，所以在上面不能执行func或xxx。
 
 
-## 函数调用
+### 函数调用
 
 每个函数接受两个附加参数: this和arguments.
 this的值取决于调用模式.
 
-### 方法调用模式
+#### 方法调用模式
 
 函数被保存为对象的属性,我们称之为方法.
 当方法被调用时,this被绑定到该对象.
 
-### 函数调用模式
+#### 函数调用模式
 
 如果一个函数并非一个对象的属性,那么它就是被当做一个函数来调用.
 此时this被绑定到全局对象.
@@ -55,7 +60,7 @@ myObject.double = function(){
 }
 ```
 
-### 构造器调用模式
+#### 构造器调用模式
 
 如果在一个函数前面加上`new`来调用,
 那么背地里会创建一个连接到该函数的`prototype`成员的新对象,
@@ -74,7 +79,7 @@ Quo.prototype.get_status = function() {
 var myQuo = new Quo("confused");
 ```
 
-### apply调用模式
+#### apply调用模式
 
 函数可以有方法.apply就是函数的方法.
 
@@ -88,11 +93,14 @@ Number.parseInt(string, radix)
 
 ## String
 
-#### slice
+slice
+
 ```
 str.slice(begin, end)
 ‘hello world’.slice(0, -2) ==> ‘hello wor’
 ```
+
+replace
 
 ```
 data.replace(/\\"/g, '"'); // return new, but data is not renewed.
