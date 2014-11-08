@@ -1,6 +1,6 @@
 # Arch Linux Installation Steps
 
-# Partition
+## Partition
 
 ```
 gdisk /dev/sda
@@ -20,7 +20,7 @@ mkfs.fat -F32 /dev/sda1
 
 mount them.
 
-# Install Base System
+## Install Base System
 
 ```
 vim /etc/pacman.d/mirrorlist
@@ -28,7 +28,7 @@ pacstrap -i /mnt base
 genfstab -U -p /mnt >> /mnt/etc/fstab
 ```
 
-# Chroot and Configure
+## Chroot and Configure
 
 ```
 arch-chroot /mnt
@@ -44,13 +44,13 @@ passwd
 ln -sf /usr/share/zoneinfo/zone/subzone /etc/localtime
 ```
 
-# Grub
+## Grub
 
 ```
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=arch_grub --recheck --debug
 ```
 
-# Network
+## Network
 
 ```
 ip link
@@ -63,7 +63,7 @@ Install `ifconfig`:
 pacman -S net-tools
 ```
 
-# Xorg
+## Xorg
 
 ```
 pacman -S xorg
@@ -74,13 +74,13 @@ startx
 pkill X
 ```
 
-# Utils
+## Utils
 
 ```
 pacman -S mlocate # updatedb and locate
 ```
 
-# After Installation
+## After Installation
 
 Chinese Font
 
@@ -94,7 +94,7 @@ Natual scrolling for xorg
 xmodmap -e "pointer = 1 2 3 5 4"
 ```
 
-## xcompmgr & transset
+### xcompmgr & transset
 
 ```
 sudo pacman -S xcompmgr transset-df
@@ -115,3 +115,12 @@ start a composite manager(xcompmgr for example). Just add this to `.xinitrc`
 ```
 xcompmgr -c &
 ```
+
+## Pacman
+
+### AUR
+
+1. download tar ball
+2. tar zxvf
+3. cd & makepkg -s
+4. pacman -U xxx.tar.xz
