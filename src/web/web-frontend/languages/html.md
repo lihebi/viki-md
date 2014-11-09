@@ -1,31 +1,6 @@
+# HTML
 
-# 文档结构
-
-```html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf8">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-    </header>
-    <nav>
-      <ul>
-        <li></li>
-      </ul>
-    </nav>
-    <section>
-      <header>
-      </header>
-    </section>
-    <script src="xxx"></script>
-  </body>
-</html>
-```
-
-# 技巧
+## Small Tips
 
 链接在新窗口中打开
 
@@ -40,9 +15,43 @@
 ```
 
 
-# html5标签
+## 文档结构
 
-## header
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <script src="xxx"></script>
+  </body>
+</html>
+```
+
+body
+
+```html
+<header>
+</header>
+<nav>
+  <ul>
+    <li></li>
+  </ul>
+</nav>
+<section>
+  <header>
+  </header>
+</section>
+```
+
+
+
+## html5标签
+
+### header
 
 介绍
 
@@ -50,7 +59,7 @@
 <header></header>
 ```
 
-## nav
+### nav
 
 是一个section. 包含指向其他页面,或者本页面其他section的链接.
 
@@ -62,7 +71,7 @@
 </nav>
 ```
 
-## section
+### section
 关于一个主题的一组内容
 
 ```html
@@ -72,7 +81,7 @@
 </section>
 ```
 
-## article
+### article
 
 独立的文章
 
@@ -93,7 +102,7 @@
 </section>
 ```
 
-## aside
+### aside
 
 与article相关但是对于它的理解又不是必须的.
 
@@ -110,7 +119,7 @@
 </article>
 ```
 
-## footer
+### footer
 
 结束一个section的信息
 
@@ -124,7 +133,11 @@
 header 和 footer 可以用在section的开始或结束
 
 
-# Code
+## Code
 
 * `&#0153;`: &#0153; trademark
 * `&#0169;`: &#0169; copyright
+* `&#174;`: &#174; registered
+* `&#123;`: &#123;
+* `&#125;`: &#125;
+* `&#8594;`: &#8594;

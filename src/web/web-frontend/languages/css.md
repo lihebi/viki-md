@@ -1,3 +1,4 @@
+# CSS
 
 ## small tips
 
@@ -44,6 +45,49 @@ examples:
 ```
 box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 ```
+
+### gradients
+
+#### Linear Gradients
+
+```
+background: linear-gradient(direction, color-stop1, color-stop2, ...);
+```
+
+browsers:
+
+```
+-webkit-linear-gradient(...)
+   -moz-linear-gradient(...)
+    -ms-linear-gradient(...)
+     -o-linear-gradient(...)
+        linear-gradient(...)
+```
+
+examples:
+
+```
+linear-gradient(red, green) /* top to bottom */
+linear-gradient(left, red, green) /* left to right */
+linear-gradient(left top, red green)
+linear-gradient(180deg, red, green)
+linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,1)) /* transparency */
+linear-gradient(red, yellow 10%, green 20%) /* repeat */
+```
+
+#### Radial Gradients
+
+```
+background: radial-gradient(shape size at position, start-color, ..., last-color);
+```
+
+examples
+
+```
+radial-gradient(red, green)
+radial-gradient(circle, red, green)
+```
+
 
 ### transform
 
@@ -116,6 +160,20 @@ transition-delay: 2s;
 
 相对于`viewport`来说。
 
+## display
+
+* `inline`: default. `<span>`
+* `block`: `<p>`
+* `inline-block`: inline-level block container.
+
+The inside of this block is formatted as block-level box. The element itself is formatted as inline-level box.
+
+* `inline-table`: inline-level table
+* `table`: behave like `<table>`
+* `table-cell`: behave like `<td>`
+* `none`
+* `inherit`: inherit from parent
+
 ## Trouble Shooting
 
 ### inline-block item 之间会有默认的space，如何除去：
@@ -176,4 +234,29 @@ vertical:
      <div style=‘display: inline-block; vertical-align: middle’>
      </div>
 </div>
+```
+
+```css
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+```
+
+### force text in one line
+
+```css
+p {
+  white-space: nowrap;
+  overflow: hidden;
+}
+```
+
+### text indent
+
+```css
+p {
+  text-indent: 2em;
+}
 ```

@@ -1,21 +1,45 @@
-## 获取页面高宽
+# DOM
 
-```
-$(window).height()
-$(window).width()
+## window
 
-$(document).width()
-$(document).height()
+* `window.innerHeight`: height of the content area of the browser, 自动去掉inspector
+* `window.innerWidth`
+* `window.location`: object used to get/set location or currentURL
 
-screen.height
-screen.width
-```
+## document
 
-## 获取当前页面网址
-document.URL
+`window.document`
 
-## get element
+### Attributes
 
-```
-document.getElementById('myid')
-```
+* `document.contentType`: "text/html"
+* `charset`: "UTF-8"
+* `documentURI`: "http://xxx/xxx/xxx"
+* `styleSheets`: [obj1, obj2, ...]
+* `children`: [<html>xxx</html>]
+* `body`: body element. <body>...</body>
+* `cookie`: a semicolon-separated list of cookies for this document. or used to set a single cookie.
+* `domain`: "viki.lihebi.com"
+* `forms`: a list of form elements
+* `head`: head element
+* `images`: a list of images
+* `links`: all links
+* `location`: same as `window.location`
+* `scripts`: all script elements
+* `title`: title
+* `URL`
+
+### Methods
+
+* `document.createElement(tagname)`
+* `getElementByClassName(className)`
+* `getElementByTagName(s)`
+* `getElementById(s)`
+* `getElementByName(s)`
+* `querySelector(s)`: first element
+* `querySelectorAll(s)`: all elements
+* `hasFocus()`: true if focus located anywhere in this document
+
+## navigator
+
+* `navigator.userAgent`: "Mozilla/5.0..."

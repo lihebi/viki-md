@@ -25,3 +25,12 @@ $('#test').get()[0]
 // same as
 document.getElementById('test')
 ```
+
+
+```js
+$(window).height()
+$(window).width()
+
+$(document).width()
+$(document).height()
+```
