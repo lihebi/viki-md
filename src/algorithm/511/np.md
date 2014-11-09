@@ -19,7 +19,7 @@ every problemm in `NP` has a polynomial algorithm.
 
 ### 3 key concepts in showing a problem to be NP-complete
 
-#### `Decision problem` and `optimization problem`
+#### Decision problem and optimization problem
 
 `Optimization problem`:
 each feasible solution has an associated value,
