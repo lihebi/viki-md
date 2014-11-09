@@ -104,7 +104,7 @@ NPC and reducitility
 ### reducitility
 
 * language $L_1$ is **polynomial-time reducible** to $L_2$, written $L_1 \le_p L_2$,
-if 存在P时间的函数f, s.t. $x \in L_1$ is and only if $f(x) \in L_2$
+if 存在P时间的函数f, s.t. $x \in L_1$ if and only if $f(x) \in L_2$
 
 意味着问题$L_1$可以转化成问题$L_2$，所以只要$L_2$有解，$L_1$同样有解。
 $L_1$ is not more than a polynomial factor harder than $L_2$.
