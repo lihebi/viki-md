@@ -1,6 +1,8 @@
-# P & NP & NPC
+P & NP & NPC
+=============================
 
-## P & NP & NPC
+P & NP & NPC
+-----------------------------
 
 * `class P`: consists of problems that are solvable is polynomial time.
 * `class NP`: consists of problems that are verifiable in polynomial time.
@@ -55,17 +57,26 @@ Assume No P algorithm for A. Assume A is NPC, we can prove B is also NPC.
 
 #### A first NPC problem
 
-## Intro problems
+Intro problems
+-----------------------------
 
 * `an instance of a problem`: the input to a problem. E.g. Graph G for PATH problem.
 
 ### Shortest simple path
 
-一个有向图中，找到从一个起点出发的最短路径。即使包含负边，也可以在$O(VE)$找到。
+一个有向图中，找到从一个起点出发的最短路径。
+
+**complexity**
+
+即使包含负边，也可以在$O(VE)$找到。
 
 ### Longest simple path
 
-仅仅决定一个图中是否含有一条path，包括一个给定数字以上的路径，都时`NP-Complete`。
+仅仅决定一个图中是否含有一条path，包括一个给定数字以上的路径.
+
+**complexity**
+
+都是`NP-Complete`。
 
 ### Euler tour
 
@@ -90,7 +101,8 @@ $(x_1 \vee \neg x_2) \wedge (\neg x_2 \vee x_3) \wedge (\neg x_2 \vee \neg x_3)$
 determine whether 2-CNF is satisfiable is P,
 determine whether 3-CNF is satisfiable is NP-complete
 
-## NPC and reducitility
+NPC and reducitility
+-----------------------------
 
 ### reducitility
 
@@ -114,13 +126,15 @@ a language $L \subseteq {0,1}^*$ is `NP-complete` if:
 `Theorem 34.4`: 如果任意一个NPC problem都是P solvable的，那么$P=NP$.
 如果任意NP problem都不是P solvable的，那么所有NPC problem都不是P solvable的。
 
-## NPC Problems
+NPC Problems
+-----------------------------
 
 ### clique
 
 图中选出一些顶点，两两相连。
 
-## Homeworks
+Homeworks
+-----------------------------
 
 ### 34.1-6
 
