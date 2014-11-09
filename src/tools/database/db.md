@@ -43,8 +43,8 @@ $\prod_{AC}(r)$
 <showtext>
 $OOXQuery:>
 <item> {
-  for $e in doc(“ComS363/UniversityDatasets/UniversityOODB.xml”)//Enrollment
-  where $e.Grade = “A”
+  for $e in doc("ComS363/UniversityDatasets/UniversityOODB.xml")//Enrollment
+  where $e.Grade = "A"
   return <MDOB> { $e.StudentInfo.Name } </MDOB>
 } </item>;
 </showtext>
