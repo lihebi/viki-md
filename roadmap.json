@@ -116,10 +116,15 @@
       "languages": {
         "dom.md": false, 
         "html.md": false, 
-        "ejs.md": false, 
+        "javascript": {
+          "array.md": false, 
+          "function.md": false, 
+          "string.md": false, 
+          "javascript.md": false
+        }, 
         "css.md": false, 
-        "javascript.md": false, 
-        "sass.md": false
+        "sass.md": false, 
+        "ejs.md": false
       }, 
       "framework": {
         "angular.md": false, 
