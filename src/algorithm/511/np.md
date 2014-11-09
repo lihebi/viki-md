@@ -66,29 +66,25 @@ Intro problems
 
 一个有向图中，找到从一个起点出发的最短路径。
 
-**complexity**
-
-即使包含负边，也可以在$O(VE)$找到。
+**complexity**: 即使包含负边，也可以在$O(VE)$找到。
 
 ### Longest simple path
 
 仅仅决定一个图中是否含有一条path，包括一个给定数字以上的路径.
 
-**complexity**
-
-都是`NP-Complete`。
+**complexity**: 都是`NP-Complete`。
 
 ### Euler tour
 
 在一个连同有向图中，一个cycle，遍历所有边有且仅有一次。
 
-决定一个图是否含有Euler tour，$O(E)$.
+**complexity**: 决定一个图是否含有Euler tour，$O(E)$.
 
 ### hamiltonian cycle
 
 在一个有向图中，a simple cycle，包括所有顶点。
 
-决定一个有向图是否含有hamiltonian cycle是`NP-Complete`
+**complexity**: 决定一个有向图是否含有hamiltonian cycle是`NP-Complete`
 
 ### 2-CNF/3-CNF satisfiability
 
@@ -98,6 +94,7 @@ Intro problems
 
 $(x_1 \vee \neg x_2) \wedge (\neg x_2 \vee x_3) \wedge (\neg x_2 \vee \neg x_3)$ is 2-CNF.
 
+**complexity**:
 determine whether 2-CNF is satisfiable is P,
 determine whether 3-CNF is satisfiable is NP-complete
 
