@@ -238,6 +238,7 @@ vertical:
 
 ```css
 .element {
+  display: block;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
