@@ -3,6 +3,7 @@
   "algorithm": {
     "511": {
       "np.md": false, 
+      "approximation.md": false, 
       "jargon.md": false
     }, 
     "data-structure.md": false
@@ -12,7 +13,6 @@
   }, 
   "language": {
     "script-languages": {
-      "ruby.md": false, 
       "python.md": false
     }, 
     "formal-languages": {
