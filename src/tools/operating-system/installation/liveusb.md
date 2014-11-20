@@ -6,6 +6,14 @@
 
 # Linux
 
+## dd
+
+```sh
+dd bs=4M if=/path/to/archlinux.iso of=/dev/sdx && sync
+# restore
+dd count=1 bs=512 if=/dev/zero of=/dev/sdx && sync
+```
+
 ## 在mac中制作ubuntu启动盘
 
 ```
