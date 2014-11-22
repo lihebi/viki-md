@@ -4,17 +4,14 @@ xmodmap
 Expression mode
 ------------------
 
-If use in `~/.xinitrc`:
-
 ```
 xmodmap -e "remove Lock = Caps_Lock"
-# ...
 ```
 
 Conf file mode
 ----------------------
 
-use along with `xmodmap ~/.Xmodmap`
+use along with `xmodmap ~/.Xmodmap`. No need to write in `~/.xinitrc`, it will apply automatically.
 
 map capslock to control_L
 
