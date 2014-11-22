@@ -69,7 +69,8 @@
       "installation": {
         "liveusb.md": false, 
         "debian.md": false, 
-        "archlinux.md": false
+        "archlinux.md": false,
+        "ubuntu.md": false
       }, 
       "configure": {
         "dotfiles.md": false, 
