@@ -1,12 +1,18 @@
 {
-  "a-buffer.md": false, 
+  "README.md": false, 
+  "aaa.md": false, 
   "algorithm": {
     "511": {
       "np.md": false, 
       "approximation.md": false, 
       "jargon.md": false
     }, 
-    "data-structure.md": false
+    "data-structure.md": false, 
+    "leetcode": {
+      "Valid-Palindrome.md": false, 
+      "Rotated-Sorted-Array.md": false, 
+      "Min-Stack.md": false
+    }
   }, 
   "encoding": {
     "base64.md": false
@@ -68,13 +74,14 @@
       }, 
       "installation": {
         "liveusb.md": false, 
+        "ubuntu.md": false, 
         "debian.md": false, 
-        "archlinux.md": false,
-        "ubuntu.md": false
+        "archlinux.md": false
       }, 
       "configure": {
         "dotfiles.md": false, 
         "xresource.md": false, 
+        "xmodmap.md": false, 
         "xinitrc.md": false
       }, 
       "x-window": {
