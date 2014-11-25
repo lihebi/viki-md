@@ -9,9 +9,10 @@
     }, 
     "data-structure.md": false, 
     "leetcode": {
-      "Valid-Palindrome.md": false, 
-      "Rotated-Sorted-Array.md": false, 
-      "Min-Stack.md": false
+      "Min-Stack-[easy].md": false, 
+      "Valid-Palindrome-[easy].md": false, 
+      "Rotated-Sorted-Array-[medium].md": false, 
+      "Rotated-Sorted-Array-II-[hard].md": false
     }
   }, 
   "encoding": {
