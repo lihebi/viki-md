@@ -1,4 +1,4 @@
-# Buffer tmp for viki articles.
+# Just A Buffer
 
 ```java
 /*
