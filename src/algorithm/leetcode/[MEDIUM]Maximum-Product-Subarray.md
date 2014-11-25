@@ -4,6 +4,22 @@
 (https://oj.leetcode.com/problems/maximum-product-subarray/)
 `medium`
 
+
+## Good Solution
+
+Dynamic Programming.
+
+f(k) = Largest product subarray, from index 0 up to k INCLUDING k.
+
+g(k) = Smallest product subarray, from index 0 up to k INCLUDING k.
+
+$f(k) = max( f(k-1) * A[k], A[k], g(k-1) * A[k] )$
+
+$g(k) = min( g(k-1) * A[k], A[k], f(k-1) * A[k] )$
+
+再从所有f(k)中选出最大值。
+
+
 ## My Solution
 
 1. 对数组以0分段
