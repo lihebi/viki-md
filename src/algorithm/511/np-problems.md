@@ -16,22 +16,22 @@ each pair of which is connected by an edge in E.
 
 ### 证明CLIQUE是NP-complete
 
-首先`证明NP`: 对于一个图$G=(V,E)$，我们用$V' \subseteq V$来表示一个certificate。
+* `证明NP`: 对于一个图$G=(V,E)$，我们用$V' \subseteq V$来表示一个certificate。
 为了验证$V'$是否是clique，我们检查每一个pair $u,v \in V'$，其边$(u,v) \in E$.
 可以在Polynomial Time内实现。
 
-然后`证明NP-Hard`. 证明$3-CNF-SAT \le_P CLIQUE$.
+* `证明NP-Hard`. 证明$3-CNF-SAT \le_P CLIQUE$.
 
-`构造`：对于任何一个3-CNF-SAT，设其有k个clause,每个clause有3个变量。也就是：
+* `构造`：对于任何一个3-CNF-SAT，设其有k个clause,每个clause有3个变量。也就是：
 $\phi = (x_1 \vee x_2 \vee \neg x_3) \wedge \ldots$
 把所有的变量（允许重复）都放入G中。
 对与每组中三个变量的每一个，将其与其余所有组的所有变量连接，除非他们互补（$x$ and $\neg x$）。
 
-`=>`如果$\phi$有一个satisfying assignment，那么：
+* `=>`: 如果$\phi$有一个satisfying assignment，那么：
 其中的每一组至少有一个变量是1.把这些变量全部取出来当作$V'$，这个$V'$的size是k，而且是CLIQUE。
 因为$V'$中任意两个，都是不同组的，而且他们并不互补（否则他们不可能都是1），所以根据我们的构造，他们是相连的。
 
-`<=`如果构造出来的G确实有size为k的CLIQUE，证明$\phi$可以satisfy:
+* `<=`: 如果构造出来的G确实有size为k的CLIQUE，证明$\phi$可以satisfy:
 该clique中的k个点两两相连，那么所有这k个点都不可能在同一组中（因为同一组的不相连）。
 因为总共有k组，那么刚好每一组有一个。
 我们可以将这些点都assign为1,因为他们不包含互斥的。这种assign可以让$\phi$满足。
@@ -46,3 +46,47 @@ such that if $(u,v) \in E$ then $u \in V'$ or $v \in V'$ or both.
 * `中文定义`:vertex cover是无向图G的顶点的一个子集$V'$，使得G中任意一条边，至少有一个顶点在其中。
 * `vertex cover problem`: 找到这么一个满足条件的$V'$，其size最小。
 * `decision problem`: 决定G是否有一个size为k的vertex cover
+* `正式定义`:
+VERTEX-COVER={$<G,k>$: G has a vertex cover of size k}
+
+### 证明NPC
+
+* `NP`:
+对于certificate $V'$，我们检测1.size is k 2. G中所有edge，检测是否有点在其中。
+
+* `reduction`: CLIQUE $\le_P$ VERTEX-COVER
+
+* `构造`:
+一个CLIQUE的instance $G(V,E)$. $G'(V,\overline{E})$.
+也就是，$G'$包含所有顶点，但是边恰好相反。
+对应问题是$G'$有$|V|-k$size的vertex cover
+
+
+* `=>`:
+G有CLIQUE of size k. 在$G'$中，我要证明任何一条边，都有顶点在$V-V'$中。
+对$G'$中的任何一条边，有：它不在G中。
+那么，至少有一个顶点不在$V'$中（$V'$中顶点都是两两相连的）。
+所以至少有一个顶点在$V-V'$中。
+
+* `<=`:
+$G'$有vertex cover $V'$ of size k. 在G中，要证明$V-V'$中的顶点两两相连。
+有两个点，他们都不在$V'$中（也就是他们都在$V-V'$中)，
+那么他们在$G'$中就肯定不相连（如果相连，必然有至少一个在$V'$中）。
+那么他们在G中肯定相连。
+
+
+Hamiltonian-cycle
+-------------------
+
+* `英文定义`: a hamiltonian cycle of an undirected graph
+is a simple cycle that contains each vertex in V.
+* `中文定义`: 无向图中的一条可以包含所有顶点有且仅有一次的圈。
+* `problem`: G是否有这么一条路径。
+* `正式定义`: HAM-CYCLE={$<G>$: G is a hamiltonian graph(G has a ham cycle)}
+
+### 证明NPC
+
+* `NP`: certificate是一条路径，直接验证这条路径是否包括所有顶点有且只有1次，并且开始点就是结束点。
+* `reduction`: VERTEX COVER
+
+* `构造`
