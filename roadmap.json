@@ -3,6 +3,7 @@
   "aaa.md": false, 
   "algorithm": {
     "511": {
+      "np-problems.md": false, 
       "np.md": false, 
       "approximation.md": false, 
       "jargon.md": false
@@ -11,6 +12,7 @@
     "leetcode": {
       "[EASY]Valid-Palindrome.md": false, 
       "[MEDIUM]Rotated-Sorted-Array.md": false, 
+      "[MEDIUM]Maximum-Product-Subarray.md": false, 
       "[EASY]Min-Stack.md": false, 
       "[HARD]Rotated-Sorted-Array-II.md": false
     }
