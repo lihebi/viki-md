@@ -4,22 +4,15 @@ NP Problems
 CLIQUE
 --------------
 
-英文定义：
-
+* `英文定义`:
 A clique in an undirected graph $G=(V,E)$ is a subset $V' \subseteq V$ of vertices,
 each pair of which is connected by an edge in E.
-
-首先，clique是无向图G中的一个子集。这个子集中的所有点在G中是两两相连的。
+* `中文定义`: 首先，clique是无向图G中的一个子集。这个子集中的所有点在G中是两两相连的。
 也就是说，clique is a complete subgraph of G.
-
-我们定义`size of clique`为该子集中的顶点个数。
+* `CLIQUE problem`: 我们定义`size of clique`为该子集中的顶点个数。
 那么`clique problem`就是要找到最大的CLIQUE.
-
-将该最优化问题转换成decision problem,得：对于一个图G，是否存在size为k的clique.
-
-正式定义CLIQUE问题：
-
-CLIQUE = { $<G,k>$: G is a graph containing a clique of size k}
+* `decision problem`: 对于一个图G，是否存在size为k的clique.
+* `正式定义`: CLIQUE = { $<G,k>$: G is a graph containing a clique of size k}
 
 ### 证明CLIQUE是NP-complete
 
@@ -42,3 +35,14 @@ $\phi = (x_1 \vee x_2 \vee \neg x_3) \wedge \ldots$
 该clique中的k个点两两相连，那么所有这k个点都不可能在同一组中（因为同一组的不相连）。
 因为总共有k组，那么刚好每一组有一个。
 我们可以将这些点都assign为1,因为他们不包含互斥的。这种assign可以让$\phi$满足。
+
+
+VERTEX-COVER
+-------------------
+
+* `英文定义`：
+A **vertex cover** of an undirected graph $G=(V,E)$ is a subset $V' \subseteq V$
+such that if $(u,v) \in E$ then $u \in V'$ or $v \in V'$ or both.
+* `中文定义`:vertex cover是无向图G的顶点的一个子集$V'$，使得G中任意一条边，至少有一个顶点在其中。
+* `vertex cover problem`: 找到这么一个满足条件的$V'$，其size最小。
+* `decision problem`: 决定G是否有一个size为k的vertex cover
