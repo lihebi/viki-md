@@ -90,3 +90,34 @@ is a simple cycle that contains each vertex in V.
 * `reduction`: VERTEX COVER
 
 * `构造`
+
+现在我们有图$G=(V,E)$，有size为k的vertex cover. 对每一条边，我们设置一个Widget.如下图
+![image](https://farm9.staticflickr.com/8568/15887792145_c83e588b4c_m.jpg")
+
+只能从四个角进出。这样的话，为了遍历所有点，那么进出的方式只能是下面两种。
+
+![image](https://farm9.staticflickr.com/8609/15700237978_576f557c45_n.jpg)
+
+**第一种边** 就是widget中包含的边，每个14条。
+
+**第二种边**
+
+对于每一个widget，$W_{uv}$，我们找到所有u相连的边，并把他们随意排序。
+将第i个（$W_{ui}$）的左下角的和第i+1个的左上角连起来。
+如果是$W_{vu}$，一样，变成右上角和右下角。
+也就是，将$[u,ui,6],[u,u(i+1),1]$连起来。
+
+用下面的图作为示范（图中应为yx,yw）
+
+![image](https://farm8.staticflickr.com/7473/15700565650_af08a88700_m.jpg)
+
+**第三种边**
+
+现在再添加k个点，这些点每个都和这种点连起来：
+在上一步已经排序好的路径中，第一个点的1和最后一个点的6.
+
+![image](https://farm8.staticflickr.com/7510/15701847019_4f4e8bffe0_n.jpg)
+
+* `=>`:
+
+* `<=`:
