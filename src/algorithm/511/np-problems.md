@@ -92,7 +92,7 @@ is a simple cycle that contains each vertex in V.
 * `构造`
 
 现在我们有图$G=(V,E)$，有size为k的vertex cover. 对每一条边，我们设置一个Widget.如下图
-![image](https://farm9.staticflickr.com/8568/15887792145_c83e588b4c_m.jpg")
+![image](https://farm9.staticflickr.com/8568/15887792145_c83e588b4c_m.jpg)
 
 只能从四个角进出。这样的话，为了遍历所有点，那么进出的方式只能是下面两种。
 
