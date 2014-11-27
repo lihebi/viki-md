@@ -149,3 +149,79 @@ is a simple cycle that contains each vertex in V.
 总共只有k个路径，因为就k个s。
 每个widget都会被走过，所以一定是和那条路径的u相邻。
 所以这k个u就cover了所有路径。
+
+Traveling salesman problem
+----------------------------
+
+* `英文定义`: Salesman wants to make a ham cycle among cities.
+for city i and j, the cost of i to j is c(i,j) nonnegative.
+He wants to make the cost minimum.
+* `中文定义`：城市是两两相连的。每条边加权，做一个ham cycle，使总cost最小。
+* `decision problem`:
+$<G,c,k>: G is graph, c is cost function,
+G has a traveling salesman tour with cost at most k.
+
+### 证明NPC
+
+* `NP`
+* `Deduction`: Hamiltonian Cycle
+* `构造`
+对于一个ham cycle问题$G=(V,E)$,使用同样的图当作TSP，只不过将其所有边都连上.
+构造c：c(i,j)= 0 if $(i,j) \in E$ and 1 otherwise.
+k=0.
+
+* `=>`:
+如果ham cycle有解，那么这条路全是0,则TSP显然有解。
+
+* `<=`:
+如果TSP有0解，那么这条0解上的所有路都是0.
+那么所有的边都在G中。那么该路径也是G的ham cycle。
+
+Subset sum problem
+----------------------
+
+* `英文定义`: we are given a finite set S of positive integers and an integer target t>0.
+We ask whether there exists a subset $S' \subseteq S$ whose sum is t.
+* `中文定义`：给定一个整数集S和一个目标t，S中是否存在一个子集其sum为t。
+* `正式定义`：
+SUBSET-SUM={$<S,t>$: there exists a subset $S' \subseteq S$ such that $t=\sum_{s\in S'} s}$.
+
+### 证明NPC
+
+* `NP`
+* `reduction`: 3-CNF-SAT
+* `构造`
+假设总共有n个$x_i$，总共有k个clause：$C_i$.
+
+有这么两个假设。没有任何clause包含一对相反的变量，如$x$ and $\neg x$.
+因为这么一个clause一定是1,所以无所谓。
+第二个假设是每个变量都至少出现在一个clause里。
+因为如果这个变量没有出现在任何clause里，那么他是什么也无所谓了。
+
+对每一个x，搞2个值v。每个C搞两个值s.
+下图中是用10进制表示，最右边是最低位。
+只有右上角一块是变的，原则是：如果C中有$x_i$，那么$v_i$相应位置1.否则置0.$v'$刚好相反。
+
+![image](https://farm8.staticflickr.com/7541/15886319881_0bc44428a3_n.jpg)
+
+
+* `=>`
+已知3-CNF-SAT有解，证明Subset sum有解。
+
+我们有一个assignment for x that make 3-CNF-SAT satisfies.
+对于这个assignment，如果$x_i=1$, 那么将$v_i$包含进去，不包含$v'_i$。
+这样，前几位都是1,满足t。
+后面几位，对每一位，不可能全是0,那样的话这个Clause就是0了。
+所以后面几位相加是1-3.
+然后从s中选出能匹配为4的。
+
+* `<=`
+已知subset sum有解，证明3-CNF-SAT有解。
+
+subset sum的那个子集中，包含的v肯定是不会同时有$v_i$和$v'_i$。
+如果有$v_i$，那么assignment $x_i$为1,否则为0.
+我们证明这个assignment能使3-CNF-SAT满足。
+
+如果$C_i$对应的v都是0,那么那一位就不能构成4了，这不可能，所以C至少有一个对应的v是1.
+这个v也保证了该C是为1的。
+所有C都是1了，所以就satisfies了。
