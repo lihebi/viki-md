@@ -111,12 +111,16 @@ is a simple cycle that contains each vertex in V.
 
 ![image](https://farm8.staticflickr.com/7473/15700565650_af08a88700_m.jpg)
 
+添加的边为
+
+![image](https://farm8.staticflickr.com/7510/15701847019_4f4e8bffe0_n.jpg)
+
 **第三种边**
 
 现在再添加k个点，这些点每个都和这种点连起来：
 在上一步已经排序好的路径中，第一个点的1和最后一个点的6.
 
-![image](https://farm8.staticflickr.com/7510/15701847019_4f4e8bffe0_n.jpg)
+![image](https://farm8.staticflickr.com/7583/15265699974_503cb70323_n.jpg)
 
 * `=>`:
 
