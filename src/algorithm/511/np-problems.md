@@ -1,6 +1,8 @@
 NP Problems
 ==============
 
+说明：证明中都省略了**证明构造能在P内完成**
+
 CLIQUE
 --------------
 
@@ -124,4 +126,26 @@ is a simple cycle that contains each vertex in V.
 
 * `=>`:
 
+已知G有k的vertex cover，怎么证明$G'$有ham cycle.
+
+因为有k个s，所以每个可以对应一个vertex cover。
+从第一个s出发，到第一个vertex cover的点，然后沿着路径一路走下来，最后到第二个s。
+然后再到第二个vertex cover，以此类推。
+
+每次走一个widget时可以有两条路，一个是走完，一个是走全部。
+如果对面的节点不是vertex cover点的话，走完。
+如果对面也是，那么走一半，剩下一半给他走。
+
+既然vertex cover可以cover所有的边，那么我们也走完了所有的点。
+
 * `<=`:
+
+已知$G'$有ham cycle，怎么证明G有k的vertex cover.
+
+我们证明在这个cycle中，任何一个从s出来的直接相连的点，这k个构成vertex cover。
+
+因为每一个widget只有两种走法，且如果s从u进入，那么后面所有的widget都是$W_{ux}$或者$W_{xu}$。
+走完回到一个s。
+总共只有k个路径，因为就k个s。
+每个widget都会被走过，所以一定是和那条路径的u相邻。
+所以这k个u就cover了所有路径。
