@@ -73,6 +73,7 @@
     "operating-system": {
       "shell": {
         "shell2.md": false, 
+        "shell3.md": false, 
         "shell.md": false
       }, 
       "installation": {
