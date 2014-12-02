@@ -46,6 +46,7 @@
 ## Math
 
 * `\sum`: $\sum$
+* `\int`: $\int$
 * `\prod`: $\prod$
 * `\hat{a}`: $\hat{a}$
 * `\frac{a}{b}`: $\frac{a}{b}$
