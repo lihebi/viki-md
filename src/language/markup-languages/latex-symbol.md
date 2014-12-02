@@ -11,6 +11,7 @@
 * `\pi`: $\pi$
 * `\rho`: $\rho$
 * `\sigma`: $\sigma$
+* `\epsilon`: $\epsilon$
 
 ## 集合
 
