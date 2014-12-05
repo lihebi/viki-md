@@ -42,6 +42,41 @@
       "latex.md": false
     }
   }, 
+  "operating-system": {
+    "mac": {
+      "mac.md": false, 
+      "swift.md": false, 
+      "software.md": false, 
+      "applescript.md": false
+    }, 
+    "linux": {
+      "built-in-software.md": false, 
+      "installation": {
+        "liveusb.md": false, 
+        "ubuntu.md": false, 
+        "debian.md": false, 
+        "archlinux.md": false
+      }, 
+      "job.md": false, 
+      "x-window": {
+        "awesome.md": false
+      }, 
+      "admin.md": false, 
+      "concept.md": false, 
+      "library.md": false, 
+      "hardware.md": false, 
+      "shell": {
+        "shell2.md": false, 
+        "shell3.md": false, 
+        "shell.md": false
+      }, 
+      "tmux.md": false, 
+      "shortcuts.md": false, 
+      "lfs.md": false, 
+      "filesystem.md": false, 
+      "trouble.md": false
+    }
+  }, 
   "scholar": {
     "cryptdb.md": false, 
     "mining_association_rules.md": false, 
@@ -69,46 +104,6 @@
       "pptp.md": false, 
       "atom.md": false, 
       "redis.md": false
-    }, 
-    "operating-system": {
-      "shell": {
-        "shell2.md": false, 
-        "shell3.md": false, 
-        "shell.md": false
-      }, 
-      "installation": {
-        "liveusb.md": false, 
-        "ubuntu.md": false, 
-        "debian.md": false, 
-        "archlinux.md": false
-      }, 
-      "configure": {
-        "dotfiles.md": false, 
-        "xresource.md": false, 
-        "xmodmap.md": false, 
-        "xinitrc.md": false
-      }, 
-      "x-window": {
-        "awesome.md": false
-      }, 
-      "mac": {
-        "mac.md": false, 
-        "swift.md": false, 
-        "software.md": false, 
-        "applescript.md": false
-      }, 
-      "linux": {
-        "built-in-software.md": false, 
-        "job.md": false, 
-        "admin.md": false, 
-        "concept.md": false, 
-        "hardware.md": false, 
-        "tmux.md": false, 
-        "shortcuts.md": false, 
-        "lfs.md": false, 
-        "filesystem.md": false, 
-        "trouble.md": false
-      }
     }, 
     "database": {
       "db.md": false
