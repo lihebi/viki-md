@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
 import os,json
 import collections
@@ -18,12 +18,23 @@ def add(root, f):
 for root,dirs,files in os.walk('src'):
   dirs.sort()
   files.sort()
-  print root, dirs, files
   for f in files:
     add(root, f)
 
-od = collections.OrderedDict(sorted(result.items()))
-
-js = json.dumps(od,indent=2)
+js = json.dumps(result,indent=2)
 with open('roadmap.json', 'w') as f:
   f.write(js)
+print('generated roadmap.json')
+
+def func(node, path, indent, f):
+    for k in node.keys():
+        if (node[k]==False):
+            f.write(' '*indent+'* ['+k+']('+path+'/'+k+')\n')
+        else:
+            f.write(' '*indent+'* ['+k+']()\n')
+            func(node[k], path+'/'+k, indent+2, f)
+
+
+with open('SUMMARY.md', 'w') as f:
+    func(result, 'src', 0, f)
+print('generated SUMMARY.md')
