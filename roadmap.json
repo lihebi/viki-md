@@ -1,153 +1,157 @@
 {
-  "README.md": false, 
-  "aaa.md": false, 
+  "scholar": {
+    "authentic_data_publication.md": false,
+    "certificate_revocation.md": false,
+    "mining_association_rules.md": false,
+    "rtree.md": false,
+    "gfs.md": false,
+    "cryptdb.md": false
+  },
   "algorithm": {
     "511": {
-      "np-problems.md": false, 
-      "np.md": false, 
-      "approximation.md": false, 
-      "jargon.md": false
-    }, 
-    "data-structure.md": false, 
+      "np-problems.md": false,
+      "np.md": false,
+      "jargon.md": false,
+      "approximation.md": false
+    },
+    "data-structure.md": false,
     "leetcode": {
-      "[EASY]Valid-Palindrome.md": false, 
-      "[MEDIUM]Rotated-Sorted-Array.md": false, 
-      "[MEDIUM]Maximum-Product-Subarray.md": false, 
-      "[EASY]Min-Stack.md": false, 
+      "[EASY]Valid-Palindrome.md": false,
+      "[EASY]Min-Stack.md": false,
+      "[MEDIUM]Rotated-Sorted-Array.md": false,
+      "[MEDIUM]Maximum-Product-Subarray.md": false,
       "[HARD]Rotated-Sorted-Array-II.md": false
     }
-  }, 
+  },
+  "aaa.md": false,
+  "README.md": false,
+  "web": {
+    "web-frontend": {
+      "built-in.md": false,
+      "framework": {
+        "bootstrap.md": false,
+        "angular.md": false,
+        "jquery.md": false,
+        "backbone.md": false
+      },
+      "languages": {
+        "javascript": {
+          "function.md": false,
+          "string.md": false,
+          "javascript.md": false,
+          "array.md": false
+        },
+        "ejs.md": false,
+        "dom.md": false,
+        "sass.md": false,
+        "css.md": false,
+        "html.md": false
+      },
+      "tools": {
+        "grunt.md": false,
+        "yeoman.md": false,
+        "bower.md": false
+      }
+    },
+    "cors.md": false,
+    "web-backend": {
+      "apache.md": false,
+      "php.md": false,
+      "node.md": false,
+      "ruby.md": false,
+      "npm.md": false
+    },
+    "jsonp.md": false
+  },
   "encoding": {
     "base64.md": false
-  }, 
-  "language": {
-    "script-languages": {
-      "python.md": false
-    }, 
-    "formal-languages": {
-      "c++.md": false, 
-      "c": {
-        "stdio.h.md": false, 
-        "stdlib.h.md": false, 
-        "std.md": false, 
-        "socket.md": false, 
-        "unistd.h.md": false
-      }, 
-      "java.md": false
-    }, 
-    "markup-languages": {
-      "regexp.md": false, 
-      "markdown.md": false, 
-      "latex-symbol.md": false, 
-      "latex.md": false
-    }
-  }, 
+  },
   "operating-system": {
-    "mac": {
-      "mac.md": false, 
-      "swift.md": false, 
-      "software.md": false, 
-      "applescript.md": false
-    }, 
     "linux": {
-      "built-in-software.md": false, 
-      "installation": {
-        "liveusb.md": false, 
-        "ubuntu.md": false, 
-        "debian.md": false, 
-        "archlinux.md": false
-      }, 
-      "job.md": false, 
+      "shortcuts.md": false,
       "x-window": {
         "awesome.md": false
-      }, 
-      "admin.md": false, 
-      "concept.md": false, 
-      "library.md": false, 
-      "hardware.md": false, 
+      },
+      "built-in-software.md": false,
+      "library.md": false,
+      "installation": {
+        "liveusb.md": false,
+        "archlinux.md": false,
+        "debian.md": false,
+        "ubuntu.md": false
+      },
+      "trouble.md": false,
+      "concept.md": false,
+      "lfs.md": false,
+      "hardware.md": false,
       "shell": {
-        "shell2.md": false, 
-        "shell3.md": false, 
-        "shell.md": false
-      }, 
-      "tmux.md": false, 
-      "shortcuts.md": false, 
-      "lfs.md": false, 
-      "filesystem.md": false, 
-      "trouble.md": false
+        "shell2.md": false,
+        "shell.md": false,
+        "shell3.md": false
+      },
+      "filesystem.md": false,
+      "tmux.md": false,
+      "admin.md": false,
+      "job.md": false
+    },
+    "mac": {
+      "software.md": false,
+      "mac.md": false,
+      "swift.md": false,
+      "applescript.md": false
     }
-  }, 
-  "scholar": {
-    "cryptdb.md": false, 
-    "mining_association_rules.md": false, 
-    "certificate_revocation.md": false, 
-    "authentic_data_publication.md": false, 
-    "rtree.md": false
-  }, 
-  "tools": {
-    "platform": {
-      "heroku.md": false, 
-      "docker.md": false, 
-      "github-repos.md": false, 
-      "github.md": false
-    }, 
-    "software": {
-      "gfw.md": false, 
-      "emacs.md": false, 
-      "vim.md": false, 
-      "ffmpeg.md": false, 
-      "jekyll.md": false, 
-      "openvpn.md": false, 
-      "vimrc.md": false, 
-      "adblock.md": false, 
-      "ps.md": false, 
-      "pptp.md": false, 
-      "atom.md": false, 
-      "redis.md": false
-    }, 
-    "database": {
-      "db.md": false
-    }
-  }, 
-  "web": {
-    "jsonp.md": false, 
-    "web-backend": {
-      "ruby.md": false, 
-      "node.md": false, 
-      "npm.md": false, 
-      "apache.md": false, 
-      "php.md": false
-    }, 
-    "cors.md": false, 
-    "web-frontend": {
-      "languages": {
-        "dom.md": false, 
-        "html.md": false, 
-        "javascript": {
-          "array.md": false, 
-          "function.md": false, 
-          "string.md": false, 
-          "javascript.md": false
-        }, 
-        "css.md": false, 
-        "sass.md": false, 
-        "ejs.md": false
-      }, 
-      "framework": {
-        "angular.md": false, 
-        "bootstrap.md": false, 
-        "jquery.md": false, 
-        "backbone.md": false
-      }, 
-      "tools": {
-        "bower.md": false, 
-        "yeoman.md": false, 
-        "grunt.md": false
-      }, 
-      "built-in.md": false
-    }
-  }, 
+  },
   "zzz": {
     "music.md": false
+  },
+  "tools": {
+    "software": {
+      "vim.md": false,
+      "vimrc.md": false,
+      "gfw.md": false,
+      "ffmpeg.md": false,
+      "redis.md": false,
+      "jekyll.md": false,
+      "adblock.md": false,
+      "pptp.md": false,
+      "atom.md": false,
+      "emacs.md": false,
+      "ps.md": false,
+      "openvpn.md": false
+    },
+    "platform": {
+      "docker.md": false,
+      "heroku.md": false,
+      "github-repos.md": false,
+      "github.md": false
+    },
+    "database": {
+      "cs363-infointeg.md": false,
+      "cs363-basic.md": false,
+      "cs363-xquery.md": false,
+      "cs363-fd.md": false
+    }
+  },
+  "language": {
+    "formal-languages": {
+      "c++.md": false,
+      "c": {
+        "socket.md": false,
+        "stdlib.h.md": false,
+        "unistd.h.md": false,
+        "stdio.h.md": false,
+        "std.md": false
+      },
+      "java.md": false
+    },
+    "script-languages": {
+      "python.md": false
+    },
+    "markup-languages": {
+      "markdown.md": false,
+      "regexp.md": false,
+      "latex-symbol.md": false,
+      "latex.md": false
+    }
   }
 }
