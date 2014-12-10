@@ -164,7 +164,7 @@ transition-delay: 2s;
 
 * `inline`: default. `<span>`
 * `block`: `<p>`
-* `inline-block`: inline-level block container.
+* `inline-block`: 是inline的，但是可以指定width,height
 
 The inside of this block is formatted as block-level box. The element itself is formatted as inline-level box.
 
