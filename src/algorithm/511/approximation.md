@@ -7,7 +7,7 @@ Approximation
 * 有些special case可以在P内解出来。
 * 可以找一个近似解。near optimal solution
 
-那么，什么是近似解？
+那么，什么是近似解？$C^*$
 
 an algorithm for a problem has an approximation ratio of $\rho(n)$ if:
 for input size n, 指标C表示该算法的结果，指标$C^*$表示最佳值，那么我们有
