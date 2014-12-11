@@ -10,7 +10,11 @@ Approximation
 那么，什么是近似解？$C^*$
 
 an algorithm for a problem has an approximation ratio of $\rho(n)$ if:
-for input size n, 指标C表示该算法的结果，指标$C^*$表示最佳值，那么我们有
+for input size n, 指标C表示该算法的结果，指标
+
+$C^*$
+
+表示最佳值，那么我们有
 
 $max(\frac{C}{C^*}, \frac{C^*}{C}) \le \rho(n)$
 
