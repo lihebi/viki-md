@@ -11,6 +11,7 @@ Approximation
 
 an algorithm for a problem has an approximation ratio of $\rho(n)$ if:
 for input size n, 指标C表示该算法的结果，指标$C^*$表示最佳值，那么我们有
+
 $max(\frac{C}{C^*}, \frac{C^*}{C}) \le \rho(n)$
 
 比如，满足条件的最大size理论是$C^I$，而我的算法得$C=\frac{C^*}{2}$。那么$\rho(n)=2$。
